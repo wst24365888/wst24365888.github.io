@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-06-27T08:54:49.208Z</updated>
+  <updated>2019-06-27T14:21:54.991Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -17,47 +17,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>A Test</title>
-    <link href="http://wst24365888.github.io/a-test/"/>
-    <id>http://wst24365888.github.io/a-test/</id>
-    <published>2019-06-27T08:52:39.000Z</published>
-    <updated>2019-06-27T08:54:49.208Z</updated>
-    
-    <content type="html"><![CDATA[<p>Just a test.</p><h2 id="Just-a-test"><a href="#Just-a-test" class="headerlink" title="Just a test."></a>Just a test.</h2><h3 id="Just-a-test-1"><a href="#Just-a-test-1" class="headerlink" title="Just a test."></a>Just a test.</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new a-test</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Just a test.&lt;/p&gt;
-&lt;h2 id=&quot;Just-a-test&quot;&gt;&lt;a href=&quot;#Just-a-test&quot; class=&quot;headerlink&quot; title=&quot;Just a test.&quot;&gt;&lt;/a&gt;Just a test.&lt;/h2&gt;&lt;h3 id=&quot;Just-a-
-      
-    
-    </summary>
-    
-    
-      <category term="test" scheme="http://wst24365888.github.io/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
+    <title>Hexo輕鬆架站</title>
     <link href="http://wst24365888.github.io/hello-world/"/>
     <id>http://wst24365888.github.io/hello-world/</id>
-    <published>2019-06-26T09:44:28.079Z</published>
-    <updated>2019-06-26T09:44:28.079Z</updated>
+    <published>2019-06-27T14:00:00.000Z</published>
+    <updated>2019-06-27T14:21:54.991Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="環境"><a href="#環境" class="headerlink" title="環境"></a>環境</h2><h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><p>到<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js官方下載網站</a>下載安裝包，這裡會一併包含npm的安裝</p><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>安裝Hexo</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h2 id="簡易指令"><a href="#簡易指令" class="headerlink" title="簡易指令"></a>簡易指令</h2><h3 id="創建新的部落格"><a href="#創建新的部落格" class="headerlink" title="創建新的部落格"></a>創建新的部落格</h3><p>輸入指令後，將會在當前目錄下建立一個名為blog的部落格專案</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog</span><br></pre></td></tr></table></figure><h3 id="在本地伺服器中執行"><a href="#在本地伺服器中執行" class="headerlink" title="在本地伺服器中執行"></a>在本地伺服器中執行</h3><p>輸入指令後，在瀏覽器輸入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>即可在本地端預覽</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h3 id="生成靜態檔案"><a href="#生成靜態檔案" class="headerlink" title="生成靜態檔案"></a>生成靜態檔案</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><h3 id="發佈"><a href="#發佈" class="headerlink" title="發佈"></a>發佈</h3><p><a href="https://wst24365888.github.io/">Xyphuz’s Note</a>這個專案是部屬到Github的，這裡之後會在寫文章做說明(有空的話啦XD)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;h2 id=&quot;環境&quot;&gt;&lt;a href=&quot;#環境&quot; class=&quot;headerlink&quot; title=&quot;環境&quot;&gt;&lt;/a&gt;環境&lt;/h2&gt;&lt;h3 id=&quot;Node-js&quot;&gt;&lt;a href=&quot;#Node-js&quot; class=&quot;headerlink&quot; title=&quot;Node.js&quot;&gt;&lt;/
       
     
     </summary>
     
+    
+      <category term="hexo" scheme="http://wst24365888.github.io/tags/hexo/"/>
     
   </entry>
   
