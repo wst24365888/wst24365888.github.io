@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-06-28T12:27:08.937Z</updated>
+  <updated>2019-06-28T12:43:24.459Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -17,28 +17,57 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo &amp; Google Search Console</title>
+    <link href="http://wst24365888.github.io/add-google-search-console/"/>
+    <id>http://wst24365888.github.io/add-google-search-console/</id>
+    <published>2019-06-28T12:33:53.000Z</published>
+    <updated>2019-06-28T12:43:24.459Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="申請-Google-Search-Console"><a href="#申請-Google-Search-Console" class="headerlink" title="申請 Google Search Console"></a>申請 Google Search Console</h2><ol><li>到<a href="https://search.google.com/search-console/welcome" target="_blank" rel="noopener">Google Search Console</a>中，選取右邊那個並貼上你的網站網址(記得先登入Google!)</li></ol><p>![Google Search Console][044.png]</p><ol start="2"><li>下載它所提供的html檔，放到部落格根目錄下public資料夾中並發布</li></ol><p>![Google Search Console][045.png]</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><ol start="3"><li>點下驗證，完成!</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;申請-Google-Search-Console&quot;&gt;&lt;a href=&quot;#申請-Google-Search-Console&quot; class=&quot;headerlink&quot; title=&quot;申請 Google Search Console&quot;&gt;&lt;/a&gt;申請 Google Sear
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
+    
+      <category term="Google Search Console" scheme="http://wst24365888.github.io/tags/Google-Search-Console/"/>
+    
+      <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
+    
+      <category term="Search Console" scheme="http://wst24365888.github.io/tags/Search-Console/"/>
+    
+  </entry>
+  
+  <entry>
     <title>在Hexo文章中插入圖片</title>
     <link href="http://wst24365888.github.io/add-image/"/>
     <id>http://wst24365888.github.io/add-image/</id>
     <published>2019-06-28T12:15:45.000Z</published>
-    <updated>2019-06-28T12:27:08.937Z</updated>
+    <updated>2019-06-28T12:40:57.399Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="語法"><a href="#語法" class="headerlink" title="語法"></a>語法</h2><p>在Hexo中是使用Markdown語法，而在Markdown中插入圖片的語法為</p><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">Alt描述</span>](<span class="link">圖片路徑</span>)</span><br></pre></td></tr></table></figure><h2 id="本地"><a href="#本地" class="headerlink" title="本地"></a>本地</h2><p>如果圖片要放在Hexo本地，可以到專案根目錄的_config.yml中設定開啟assets資料夾</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>如此一來在生成一個新文章時就會開啟一個與文章同名的資料夾，到時候就可以直接訪問，例如</p><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">Alt描述</span>](<span class="link">image.jpg</span>)</span><br></pre></td></tr></table></figure><h2 id="網路上"><a href="#網路上" class="headerlink" title="網路上"></a>網路上</h2><p>也可以將圖片放在網路上，到時直接將圖片的網址拿來用，例如</p><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">Alt描述</span>](<span class="link">https://wst24365888.github.io/image.jpg</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="語法"><a href="#語法" class="headerlink" title="語法"></a>語法</h2><p>在Hexo中是使用Markdown語法，而在Markdown中插入圖片的語法為</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Alt描述](圖片路徑)</span><br></pre></td></tr></table></figure><h3 id="本地"><a href="#本地" class="headerlink" title="本地"></a>本地</h3><p>如果圖片要放在Hexo本地，可以到專案根目錄的_config.yml中設定開啟assets資料夾</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>如此一來在生成一個新文章時就會開啟一個與文章同名的資料夾，到時候就可以直接訪問，例如</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Alt描述](image.jpg)</span><br></pre></td></tr></table></figure><h3 id="網路上"><a href="#網路上" class="headerlink" title="網路上"></a>網路上</h3><p>也可以將圖片放在網路上，到時直接將圖片的網址拿來用，例如</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Alt描述](https://wst24365888.github.io/image.jpg)</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
         &lt;h2 id=&quot;語法&quot;&gt;&lt;a href=&quot;#語法&quot; class=&quot;headerlink&quot; title=&quot;語法&quot;&gt;&lt;/a&gt;語法&lt;/h2&gt;&lt;p&gt;在Hexo中是使用Markdown語法，而在Markdown中插入圖片的語法為&lt;/p&gt;
-&lt;figure class=&quot;highlight m
+&lt;figure class=&quot;highlight p
       
     
     </summary>
     
     
-      <category term="hexo" scheme="http://wst24365888.github.io/tags/hexo/"/>
+      <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
-      <category term="markdown" scheme="http://wst24365888.github.io/tags/markdown/"/>
+      <category term="Markdown" scheme="http://wst24365888.github.io/tags/Markdown/"/>
     
   </entry>
   
@@ -47,21 +76,21 @@
     <link href="http://wst24365888.github.io/hexo-site/"/>
     <id>http://wst24365888.github.io/hexo-site/</id>
     <published>2019-06-27T14:00:00.000Z</published>
-    <updated>2019-06-28T12:16:43.546Z</updated>
+    <updated>2019-06-28T12:39:41.167Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="環境"><a href="#環境" class="headerlink" title="環境"></a>環境</h2><h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><p>到<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js官方下載網站</a>下載安裝包，這裡會一併包含npm的安裝</p><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>安裝Hexo</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h2 id="簡易指令"><a href="#簡易指令" class="headerlink" title="簡易指令"></a>簡易指令</h2><h3 id="建立新的部落格"><a href="#建立新的部落格" class="headerlink" title="建立新的部落格"></a>建立新的部落格</h3><p>輸入指令後，將會在當前目錄下建立一個名為blog的部落格專案</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog</span><br></pre></td></tr></table></figure><h3 id="建立新的文章"><a href="#建立新的文章" class="headerlink" title="建立新的文章"></a>建立新的文章</h3><p>輸入指令後，將會在source/_post下建立一個名為article.md的文章</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new article</span><br></pre></td></tr></table></figure><h3 id="生成靜態檔案"><a href="#生成靜態檔案" class="headerlink" title="生成靜態檔案"></a>生成靜態檔案</h3><p>輸入指令後，將會在public下建立此網站的靜態檔案</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h3 id="在本地伺服器中執行"><a href="#在本地伺服器中執行" class="headerlink" title="在本地伺服器中執行"></a>在本地伺服器中執行</h3><p>輸入指令後，在瀏覽器輸入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>即可在本地端預覽</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h3 id="發佈"><a href="#發佈" class="headerlink" title="發佈"></a>發佈</h3><p><a href="https://wst24365888.github.io/">Xyphuz’s Note</a>這個專案是部屬到Github的，這裡之後會再寫文章做說明(有空的話啦XD)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="1-環境"><a href="#1-環境" class="headerlink" title="1. 環境"></a>1. 環境</h2><h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><p>到<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js官方下載網站</a>下載安裝包，這裡會一併包含npm的安裝</p><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>安裝Hexo</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h2 id="2-簡易指令"><a href="#2-簡易指令" class="headerlink" title="2. 簡易指令"></a>2. 簡易指令</h2><h3 id="建立新的部落格"><a href="#建立新的部落格" class="headerlink" title="建立新的部落格"></a>建立新的部落格</h3><p>輸入指令後，將會在當前目錄下建立一個名為blog的部落格專案</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog</span><br></pre></td></tr></table></figure><h3 id="建立新的文章"><a href="#建立新的文章" class="headerlink" title="建立新的文章"></a>建立新的文章</h3><p>輸入指令後，將會在source/_post下建立一個名為article.md的文章</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new article</span><br></pre></td></tr></table></figure><h3 id="生成靜態檔案"><a href="#生成靜態檔案" class="headerlink" title="生成靜態檔案"></a>生成靜態檔案</h3><p>輸入指令後，將會在public下建立此網站的靜態檔案</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h3 id="在本地伺服器中執行"><a href="#在本地伺服器中執行" class="headerlink" title="在本地伺服器中執行"></a>在本地伺服器中執行</h3><p>輸入指令後，在瀏覽器輸入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>即可在本地端預覽</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h3 id="發佈"><a href="#發佈" class="headerlink" title="發佈"></a>發佈</h3><p><a href="https://wst24365888.github.io/">Xyphuz’s Note</a>這個專案是部屬到Github的，這裡之後會再寫文章做說明(有空的話啦XD)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;環境&quot;&gt;&lt;a href=&quot;#環境&quot; class=&quot;headerlink&quot; title=&quot;環境&quot;&gt;&lt;/a&gt;環境&lt;/h2&gt;&lt;h3 id=&quot;Node-js&quot;&gt;&lt;a href=&quot;#Node-js&quot; class=&quot;headerlink&quot; title=&quot;Node.js&quot;&gt;&lt;/
+        &lt;h2 id=&quot;1-環境&quot;&gt;&lt;a href=&quot;#1-環境&quot; class=&quot;headerlink&quot; title=&quot;1. 環境&quot;&gt;&lt;/a&gt;1. 環境&lt;/h2&gt;&lt;h3 id=&quot;Node-js&quot;&gt;&lt;a href=&quot;#Node-js&quot; class=&quot;headerlink&quot; title=&quot;N
       
     
     </summary>
     
     
-      <category term="hexo" scheme="http://wst24365888.github.io/tags/hexo/"/>
+      <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
   </entry>
   
