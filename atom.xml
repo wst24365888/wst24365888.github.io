@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-06-28T14:00:11.669Z</updated>
+  <updated>2019-06-28T14:22:15.121Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo Tags 換大小寫</title>
+    <link href="http://wst24365888.github.io/hexo-tags/"/>
+    <id>http://wst24365888.github.io/hexo-tags/</id>
+    <published>2019-06-28T14:11:23.000Z</published>
+    <updated>2019-06-28T14:22:15.121Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="WTF"><a href="#WTF" class="headerlink" title="WTF"></a>WTF</h2><p>如果你也像我一樣白目想換tags中的大小寫，</p><p>例如: hexo -&gt; Hexo，</p><p>會發現，疑?</p><p>怎麼tags/Hexo沒作用了?</p><h2 id="How-to-solve"><a href="#How-to-solve" class="headerlink" title="How to solve?"></a>How to solve?</h2><ol><li>首先把所有文章的tags註解起來</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#tags: [Hexo, Tags]</span><br></pre></td></tr></table></figure><ol start="2"><li>然後刪除靜態檔案並發布</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><ol start="3"><li>再來把所有文章的tags註解去掉</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tags: [Hexo, Tags]</span><br></pre></td></tr></table></figure><ol start="4"><li>然後建立靜態檔案並發布</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><h2 id="Why"><a href="#Why" class="headerlink" title="Why?"></a>Why?</h2><p>根據<a href="https://stackoverflow.com/questions/17683458/how-do-i-commit-case-sensitive-only-filename-changes-in-git/17688308#17688308" target="_blank" rel="noopener">這篇</a>文章，</p><p>會發現資料夾中Case Sensitive(只替換大小寫)的動作會被忽略，</p><p>其實在Hexo中的tags都會生成在public/tags/，</p><p>其中因為public/tags/hexo被替換成public/tags/Hexo這件事被忽略了，</p><p>自然也就找不到路徑啦~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;WTF&quot;&gt;&lt;a href=&quot;#WTF&quot; class=&quot;headerlink&quot; title=&quot;WTF&quot;&gt;&lt;/a&gt;WTF&lt;/h2&gt;&lt;p&gt;如果你也像我一樣白目想換tags中的大小寫，&lt;/p&gt;
+&lt;p&gt;例如: hexo -&amp;gt; Hexo，&lt;/p&gt;
+&lt;p&gt;會發現，疑?&lt;/
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://wst24365888.github.io/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
+    
+      <category term="Tags" scheme="http://wst24365888.github.io/tags/Tags/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo &amp; Google Search Console</title>
