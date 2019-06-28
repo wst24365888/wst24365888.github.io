@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-06-28T12:43:24.459Z</updated>
+  <updated>2019-06-28T12:46:54.611Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://wst24365888.github.io/add-google-search-console/"/>
     <id>http://wst24365888.github.io/add-google-search-console/</id>
     <published>2019-06-28T12:33:53.000Z</published>
-    <updated>2019-06-28T12:43:24.459Z</updated>
+    <updated>2019-06-28T12:46:54.611Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="申請-Google-Search-Console"><a href="#申請-Google-Search-Console" class="headerlink" title="申請 Google Search Console"></a>申請 Google Search Console</h2><ol><li>到<a href="https://search.google.com/search-console/welcome" target="_blank" rel="noopener">Google Search Console</a>中，選取右邊那個並貼上你的網站網址(記得先登入Google!)</li></ol><p>![Google Search Console][044.png]</p><ol start="2"><li>下載它所提供的html檔，放到部落格根目錄下public資料夾中並發布</li></ol><p>![Google Search Console][045.png]</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><ol start="3"><li>點下驗證，完成!</li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="申請-Google-Search-Console"><a href="#申請-Google-Search-Console" class="headerlink" title="申請 Google Search Console"></a>申請 Google Search Console</h2><ol><li>到<a href="https://search.google.com/search-console/welcome" target="_blank" rel="noopener">Google Search Console</a>中，選取右邊那個並貼上你的網站網址(記得先登入Google!)</li></ol><p><img src="044.png" alt="Google Search Console"></p><ol start="2"><li>下載它所提供的html檔，放到部落格根目錄下public資料夾中並發布</li></ol><p><img src="045.png" alt="Google Search Console"></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><ol start="3"><li>點下驗證，完成!</li></ol>]]></content>
     
     <summary type="html">
     
