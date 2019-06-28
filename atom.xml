@@ -52,7 +52,7 @@
     <link href="http://wst24365888.github.io/add-image/"/>
     <id>http://wst24365888.github.io/add-image/</id>
     <published>2019-06-28T12:15:45.000Z</published>
-    <updated>2019-06-28T12:54:42.203Z</updated>
+    <updated>2019-06-28T13:25:34.166Z</updated>
     
     <content type="html"><![CDATA[<h2 id="語法"><a href="#語法" class="headerlink" title="語法"></a>語法</h2><p>在Hexo中是使用Markdown語法，而在Markdown中插入圖片的語法為</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Alt描述](圖片路徑)</span><br></pre></td></tr></table></figure><h3 id="本地"><a href="#本地" class="headerlink" title="本地"></a>本地</h3><p>如果圖片要放在Hexo本地，可以到專案根目錄的_config.yml中設定開啟assets資料夾</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>如此一來在生成一個新文章時就會開啟一個與文章同名的資料夾，到時候就可以直接訪問，例如</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Alt描述](image.jpg)</span><br></pre></td></tr></table></figure><h3 id="網路上"><a href="#網路上" class="headerlink" title="網路上"></a>網路上</h3><p>也可以將圖片放在網路上，到時直接將圖片的網址拿來用，例如</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Alt描述](https://wst24365888.github.io/image.jpg)</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -69,9 +69,9 @@
       <category term="Hexo" scheme="http://wst24365888.github.io/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
-    
       <category term="Markdown" scheme="http://wst24365888.github.io/tags/Markdown/"/>
+    
+      <category term="hexo" scheme="http://wst24365888.github.io/tags/hexo/"/>
     
   </entry>
   
