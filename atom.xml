@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-06-28T14:40:56.185Z</updated>
+  <updated>2019-06-28T14:48:29.791Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo &amp; Google Analytics</title>
+    <link href="http://wst24365888.github.io/add-google-analytics/"/>
+    <id>http://wst24365888.github.io/add-google-analytics/</id>
+    <published>2019-06-28T14:42:10.000Z</published>
+    <updated>2019-06-28T14:48:29.791Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="建立帳戶"><a href="#建立帳戶" class="headerlink" title="建立帳戶"></a>建立帳戶</h2><p>先登入Google帳戶，</p><p>再到<a href="https://analytics.google.com/analytics/web/provision/?authuser=0#/provision/create" target="_blank" rel="noopener">這裡</a>去幫這個網站建立一個帳戶(資源)，</p><p>並取得追蹤編號UA-xxxxxxxx-x</p><h2 id="設定編號"><a href="#設定編號" class="headerlink" title="設定編號"></a>設定編號</h2><p>到部落格”themes/你使用的主題”目錄底下的_config.yml修改google_analytics項目</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">google_analytics:</span> <span class="string">UA-xxxxxxxx-x</span></span><br></pre></td></tr></table></figure><p>就這樣結束啦~!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;建立帳戶&quot;&gt;&lt;a href=&quot;#建立帳戶&quot; class=&quot;headerlink&quot; title=&quot;建立帳戶&quot;&gt;&lt;/a&gt;建立帳戶&lt;/h2&gt;&lt;p&gt;先登入Google帳戶，&lt;/p&gt;
+&lt;p&gt;再到&lt;a href=&quot;https://analytics.google.com/an
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
+    
+      <category term="Google Analytics" scheme="http://wst24365888.github.io/tags/Google-Analytics/"/>
+    
+      <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
+    
+      <category term="Analytics" scheme="http://wst24365888.github.io/tags/Analytics/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo建立網站地圖Sitemap</title>
@@ -77,7 +107,7 @@
     <link href="http://wst24365888.github.io/add-google-search-console/"/>
     <id>http://wst24365888.github.io/add-google-search-console/</id>
     <published>2019-06-28T12:33:53.000Z</published>
-    <updated>2019-06-28T14:00:11.669Z</updated>
+    <updated>2019-06-28T14:43:37.218Z</updated>
     
     <content type="html"><![CDATA[<h2 id="申請-Google-Search-Console"><a href="#申請-Google-Search-Console" class="headerlink" title="申請 Google Search Console"></a>申請 Google Search Console</h2><ol><li>到<a href="https://search.google.com/search-console/welcome" target="_blank" rel="noopener">Google Search Console</a>中，選取右邊那個並貼上你的網站網址(記得先登入Google!)</li></ol><p><img src="044.png" alt></p><ol start="2"><li>下載它所提供的html檔，放到部落格根目錄下public資料夾中並發布</li></ol><p><img src="045.png" alt></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><ol start="3"><li>點下驗證，完成!</li></ol>]]></content>
     
@@ -95,11 +125,9 @@
     
       <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
-      <category term="Google Search Console" scheme="http://wst24365888.github.io/tags/Google-Search-Console/"/>
-    
       <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
     
-      <category term="Search Console" scheme="http://wst24365888.github.io/tags/Search-Console/"/>
+      <category term="Google Search Console" scheme="http://wst24365888.github.io/tags/Google-Search-Console/"/>
     
   </entry>
   

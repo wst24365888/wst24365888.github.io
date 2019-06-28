@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wst24365888.github.io/add-google-analytics/</loc>
+    
+    <lastmod>2019-06-28T14:48:29.791Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wst24365888.github.io/add-google-search-console/</loc>
+    
+    <lastmod>2019-06-28T14:43:37.218Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wst24365888.github.io/hexo-sitemap/</loc>
     
     <lastmod>2019-06-28T14:40:56.185Z</lastmod>
@@ -26,13 +40,6 @@
     <loc>http://wst24365888.github.io/hexo-site/</loc>
     
     <lastmod>2019-06-28T14:05:55.386Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wst24365888.github.io/add-google-search-console/</loc>
-    
-    <lastmod>2019-06-28T14:00:11.669Z</lastmod>
     
   </url>
   
