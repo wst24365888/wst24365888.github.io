@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-06-28T14:55:56.364Z</updated>
+  <updated>2019-06-28T15:10:43.721Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://wst24365888.github.io/add-google-analytics/"/>
     <id>http://wst24365888.github.io/add-google-analytics/</id>
     <published>2019-06-28T14:42:10.000Z</published>
-    <updated>2019-06-28T14:55:56.364Z</updated>
+    <updated>2019-06-28T15:10:43.721Z</updated>
     
     <content type="html"><![CDATA[<h2 id="建立帳戶"><a href="#建立帳戶" class="headerlink" title="建立帳戶"></a>建立帳戶</h2><p>先登入Google帳戶，</p><p>再到<a href="https://analytics.google.com/analytics/web/provision/?authuser=0#/provision/create" target="_blank" rel="noopener">這裡</a>去幫這個網站建立一個帳戶(資源)，</p><p>並取得追蹤編號UA-xxxxxxxx-x</p><h2 id="設定編號"><a href="#設定編號" class="headerlink" title="設定編號"></a>設定編號</h2><p>到部落格”themes/你使用的主題”目錄底下的_config.yml修改google_analytics項目</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">google_analytics:</span> <span class="string">UA-xxxxxxxx-x</span></span><br></pre></td></tr></table></figure><p>就這樣結束啦~!</p>]]></content>
     
@@ -51,7 +51,7 @@
     <link href="http://wst24365888.github.io/hexo-sitemap/"/>
     <id>http://wst24365888.github.io/hexo-sitemap/</id>
     <published>2019-06-28T14:26:13.000Z</published>
-    <updated>2019-06-28T14:40:56.185Z</updated>
+    <updated>2019-06-28T15:10:39.886Z</updated>
     
     <content type="html"><![CDATA[<h2 id="建立Sitemap-xml"><a href="#建立Sitemap-xml" class="headerlink" title="建立Sitemap.xml"></a>建立Sitemap.xml</h2><h3 id="安裝套件"><a href="#安裝套件" class="headerlink" title="安裝套件"></a>安裝套件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure><h3 id="加入-sitemap-路徑"><a href="#加入-sitemap-路徑" class="headerlink" title="加入 sitemap 路徑"></a>加入 sitemap 路徑</h3><p>到部落格根目錄底下的_config.yml中加入以下幾行</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#Sitemap</span><br><span class="line">sitemap:</span><br><span class="line">  path: sitemap.xml</span><br></pre></td></tr></table></figure><h3 id="發佈"><a href="#發佈" class="headerlink" title="發佈"></a>發佈</h3><p>對，一樣是發布</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><h2 id="向Google-Search-Console提交"><a href="#向Google-Search-Console提交" class="headerlink" title="向Google Search Console提交"></a>向Google Search Console提交</h2><p>到<a href="https://search.google.com/search-console" target="_blank" rel="noopener">Google Search Console</a>中Sitemap的選項去提交網址就行了</p><p><img src="048.png" alt></p>]]></content>
     
@@ -78,7 +78,7 @@
     <link href="http://wst24365888.github.io/hexo-tags/"/>
     <id>http://wst24365888.github.io/hexo-tags/</id>
     <published>2019-06-28T14:11:23.000Z</published>
-    <updated>2019-06-28T14:34:10.757Z</updated>
+    <updated>2019-06-28T15:10:52.783Z</updated>
     
     <content type="html"><![CDATA[<h2 id="WTF"><a href="#WTF" class="headerlink" title="WTF?"></a>WTF?</h2><p>如果你也像我一樣白目想換tags中的大小寫，</p><p>例如: hexo -&gt; Hexo，</p><p>會發現，疑?</p><p>怎麼tags/Hexo沒作用了?</p><h2 id="How-to-solve"><a href="#How-to-solve" class="headerlink" title="How to solve?"></a>How to solve?</h2><ol><li>首先把所有文章的tags註解起來</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#tags: [Hexo, Tags]</span><br></pre></td></tr></table></figure><ol start="2"><li>然後刪除靜態檔案並發布</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><ol start="3"><li>再來把所有文章的tags註解去掉</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tags: [Hexo, Tags]</span><br></pre></td></tr></table></figure><ol start="4"><li>最後建立靜態檔案並發布</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><h2 id="Why"><a href="#Why" class="headerlink" title="Why?"></a>Why?</h2><p>根據<a href="https://stackoverflow.com/questions/17683458/how-do-i-commit-case-sensitive-only-filename-changes-in-git/17688308#17688308" target="_blank" rel="noopener">這篇文章</a>，</p><p>會發現資料夾中Case Sensitive(只替換大小寫)的動作會被忽略，</p><p>其實在Hexo中的tags都會生成在public/tags/，</p><p>其中因為public/tags/hexo被替換成public/tags/Hexo這件事被忽略了，</p><p>自然也就找不到路徑啦~</p>]]></content>
     
@@ -136,7 +136,7 @@
     <link href="http://wst24365888.github.io/add-image/"/>
     <id>http://wst24365888.github.io/add-image/</id>
     <published>2019-06-28T12:15:45.000Z</published>
-    <updated>2019-06-28T14:30:18.771Z</updated>
+    <updated>2019-06-28T15:11:05.870Z</updated>
     
     <content type="html"><![CDATA[<h2 id="語法"><a href="#語法" class="headerlink" title="語法"></a>語法</h2><p>在Hexo中是使用Markdown語法，而在Markdown中插入圖片的語法為</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Alt描述](圖片路徑)</span><br></pre></td></tr></table></figure><h3 id="本地"><a href="#本地" class="headerlink" title="本地"></a>本地</h3><p>如果圖片要放在Hexo本地，可以到專案根目錄底下的_config.yml中設定開啟assets資料夾</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>如此一來在生成一個新文章時就會開啟一個與文章同名的資料夾，到時候就可以直接訪問，例如</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Alt描述](image.jpg)</span><br></pre></td></tr></table></figure><h3 id="網路上"><a href="#網路上" class="headerlink" title="網路上"></a>網路上</h3><p>也可以將圖片放在網路上，到時直接將圖片的網址拿來用，例如</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Alt描述](https://wst24365888.github.io/image.jpg)</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -164,7 +164,7 @@
     <link href="http://wst24365888.github.io/hexo-site/"/>
     <id>http://wst24365888.github.io/hexo-site/</id>
     <published>2019-06-27T14:00:00.000Z</published>
-    <updated>2019-06-28T14:05:55.386Z</updated>
+    <updated>2019-06-28T15:11:01.758Z</updated>
     
     <content type="html"><![CDATA[<h2 id="環境"><a href="#環境" class="headerlink" title="環境"></a>環境</h2><h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><p>到<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js官方下載網站</a>下載安裝包，這裡會一併包含npm的安裝</p><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>安裝Hexo</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h2 id="簡易指令"><a href="#簡易指令" class="headerlink" title="簡易指令"></a>簡易指令</h2><h3 id="建立新的部落格"><a href="#建立新的部落格" class="headerlink" title="建立新的部落格"></a>建立新的部落格</h3><p>輸入指令後，將會在當前目錄下建立一個名為blog的部落格專案</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog</span><br></pre></td></tr></table></figure><h3 id="建立新的文章"><a href="#建立新的文章" class="headerlink" title="建立新的文章"></a>建立新的文章</h3><p>輸入指令後，將會在source/_post下建立一個名為article.md的文章</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new article</span><br></pre></td></tr></table></figure><h3 id="生成靜態檔案"><a href="#生成靜態檔案" class="headerlink" title="生成靜態檔案"></a>生成靜態檔案</h3><p>輸入指令後，將會在根目錄下配置db.json，以及在public下建立此網站的靜態檔案</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h3 id="刪除靜態檔案"><a href="#刪除靜態檔案" class="headerlink" title="刪除靜態檔案"></a>刪除靜態檔案</h3><p>輸入指令後，將會在根目錄下重置db.json，以及刪除在public下建立的靜態檔案</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure><h3 id="在本地伺服器中執行"><a href="#在本地伺服器中執行" class="headerlink" title="在本地伺服器中執行"></a>在本地伺服器中執行</h3><p>輸入指令後，在瀏覽器輸入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>即可在本地端預覽</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h3 id="發佈"><a href="#發佈" class="headerlink" title="發佈"></a>發佈</h3><p><a href="https://wst24365888.github.io/">Xyphuz’s Note</a>這個專案是部屬到Github的，這裡之後會再寫文章做說明(有空的話啦XD)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>]]></content>
     
