@@ -2,65 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wst24365888.github.io/hexo-sitemap/</loc>
+    
+    <lastmod>2019-07-01T02:44:11.126Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wst24365888.github.io/hexo-github/</loc>
     
-    <lastmod>2019-06-29T14:14:55.082Z</lastmod>
+    <lastmod>2019-07-01T02:43:53.531Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wst24365888.github.io/hexo-rss/</loc>
+    
+    <lastmod>2019-07-01T02:43:37.756Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://wst24365888.github.io/hexo-tags/</loc>
     
-    <lastmod>2019-06-29T14:01:19.260Z</lastmod>
+    <lastmod>2019-06-29T14:01:19.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://wst24365888.github.io/hexo-site/</loc>
     
-    <lastmod>2019-06-29T13:39:30.703Z</lastmod>
+    <lastmod>2019-06-29T13:39:30.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://wst24365888.github.io/add-google-analytics/</loc>
     
-    <lastmod>2019-06-29T13:15:53.690Z</lastmod>
+    <lastmod>2019-06-29T13:15:53.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://wst24365888.github.io/add-google-search-console/</loc>
     
-    <lastmod>2019-06-28T15:42:38.835Z</lastmod>
+    <lastmod>2019-06-28T15:42:38.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://wst24365888.github.io/add-image/</loc>
     
-    <lastmod>2019-06-28T15:42:36.226Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wst24365888.github.io/hexo-sitemap/</loc>
-    
-    <lastmod>2019-06-28T15:42:30.336Z</lastmod>
+    <lastmod>2019-06-28T15:42:36.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://wst24365888.github.io/tags/index.html</loc>
     
-    <lastmod>2019-06-28T13:16:14.952Z</lastmod>
+    <lastmod>2019-06-28T13:16:14.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://wst24365888.github.io/categories/index.html</loc>
     
-    <lastmod>2019-06-28T13:09:28.749Z</lastmod>
+    <lastmod>2019-06-28T13:09:28.000Z</lastmod>
     
   </url>
   
