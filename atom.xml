@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-07-03T08:57:45.592Z</updated>
+  <updated>2019-07-03T09:55:49.658Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解決Flutter中SingleChildScrollView在Column底下無法運作的問題</title>
+    <link href="http://wst24365888.github.io/flutter-singlechildscrollview-in-column/"/>
+    <id>http://wst24365888.github.io/flutter-singlechildscrollview-in-column/</id>
+    <published>2019-07-03T09:53:23.000Z</published>
+    <updated>2019-07-03T09:55:49.658Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="用Expanded包住SingleChildScrollView"><a href="#用Expanded包住SingleChildScrollView" class="headerlink" title="用Expanded包住SingleChildScrollView"></a>用Expanded包住SingleChildScrollView</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Column(</span><br><span class="line">  children: &lt;Widget&gt;[</span><br><span class="line">    Expanded(</span><br><span class="line">      child: SingleChildScrollView(),</span><br><span class="line">    )</span><br><span class="line">  ],</span><br><span class="line">),</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;用Expanded包住SingleChildScrollView&quot;&gt;&lt;a href=&quot;#用Expanded包住SingleChildScrollView&quot; class=&quot;headerlink&quot; title=&quot;用Expanded包住SingleChildScroll
+      
+    
+    </summary>
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/categories/Flutter/"/>
+    
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
+    
+      <category term="SingleChildScrollView" scheme="http://wst24365888.github.io/tags/SingleChildScrollView/"/>
+    
+      <category term="Column" scheme="http://wst24365888.github.io/tags/Column/"/>
+    
+      <category term="Expanded" scheme="http://wst24365888.github.io/tags/Expanded/"/>
+    
+  </entry>
   
   <entry>
     <title>在Flutter中換頁</title>
@@ -185,9 +216,9 @@
     
       <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
-      <category term="Google Analytics" scheme="http://wst24365888.github.io/tags/Google-Analytics/"/>
-    
       <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
+    
+      <category term="Google Analytics" scheme="http://wst24365888.github.io/tags/Google-Analytics/"/>
     
       <category term="Analytics" scheme="http://wst24365888.github.io/tags/Analytics/"/>
     
@@ -274,9 +305,9 @@
     
       <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
-      <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
-    
       <category term="Google Search Console" scheme="http://wst24365888.github.io/tags/Google-Search-Console/"/>
+    
+      <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
     
   </entry>
   
