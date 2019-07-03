@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-07-03T08:40:26.251Z</updated>
+  <updated>2019-07-03T08:40:51.847Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://wst24365888.github.io/flutter-change-page/"/>
     <id>http://wst24365888.github.io/flutter-change-page/</id>
     <published>2019-07-03T08:37:56.000Z</published>
-    <updated>2019-07-03T08:40:26.251Z</updated>
+    <updated>2019-07-03T08:40:51.847Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="使用Navigator"><a href="#使用Navigator" class="headerlink" title="使用Navigator"></a>使用Navigator</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Navigator.push(</span><br><span class="line">    context,</span><br><span class="line">    MaterialPageRoute(builder: (context) =&gt; ThePageYouWantToGo()),</span><br><span class="line">  );</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="使用Navigator"><a href="#使用Navigator" class="headerlink" title="使用Navigator"></a>使用Navigator</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Navigator.push(</span><br><span class="line">    context,</span><br><span class="line">    MaterialPageRoute(builder: (context) =&gt; ThePageYouWantToGo()),</span><br><span class="line">);</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
