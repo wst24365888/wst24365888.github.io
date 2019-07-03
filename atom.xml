@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-07-03T08:32:22.976Z</updated>
+  <updated>2019-07-03T08:40:26.251Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在Flutter中換頁</title>
+    <link href="http://wst24365888.github.io/flutter-change-page/"/>
+    <id>http://wst24365888.github.io/flutter-change-page/</id>
+    <published>2019-07-03T08:37:56.000Z</published>
+    <updated>2019-07-03T08:40:26.251Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="使用Navigator"><a href="#使用Navigator" class="headerlink" title="使用Navigator"></a>使用Navigator</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Navigator.push(</span><br><span class="line">    context,</span><br><span class="line">    MaterialPageRoute(builder: (context) =&gt; ThePageYouWantToGo()),</span><br><span class="line">  );</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;使用Navigator&quot;&gt;&lt;a href=&quot;#使用Navigator&quot; class=&quot;headerlink&quot; title=&quot;使用Navigator&quot;&gt;&lt;/a&gt;使用Navigator&lt;/h2&gt;&lt;figure class=&quot;highlight dart&quot;&gt;&lt;table
+      
+    
+    </summary>
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/categories/Flutter/"/>
+    
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
+    
+      <category term="Navigator" scheme="http://wst24365888.github.io/tags/Navigator/"/>
+    
+  </entry>
   
   <entry>
     <title>Flutter中配置BottomNavigationBar的顏色</title>
@@ -158,9 +185,9 @@
     
       <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
-      <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
-    
       <category term="Google Analytics" scheme="http://wst24365888.github.io/tags/Google-Analytics/"/>
+    
+      <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
     
       <category term="Analytics" scheme="http://wst24365888.github.io/tags/Analytics/"/>
     
@@ -247,9 +274,9 @@
     
       <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
-      <category term="Google Search Console" scheme="http://wst24365888.github.io/tags/Google-Search-Console/"/>
-    
       <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
+    
+      <category term="Google Search Console" scheme="http://wst24365888.github.io/tags/Google-Search-Console/"/>
     
   </entry>
   
