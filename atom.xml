@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-07-03T08:40:51.847Z</updated>
+  <updated>2019-07-03T08:57:45.592Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://wst24365888.github.io/flutter-change-page/"/>
     <id>http://wst24365888.github.io/flutter-change-page/</id>
     <published>2019-07-03T08:37:56.000Z</published>
-    <updated>2019-07-03T08:40:51.847Z</updated>
+    <updated>2019-07-03T08:57:45.592Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="使用Navigator"><a href="#使用Navigator" class="headerlink" title="使用Navigator"></a>使用Navigator</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Navigator.push(</span><br><span class="line">    context,</span><br><span class="line">    MaterialPageRoute(builder: (context) =&gt; ThePageYouWantToGo()),</span><br><span class="line">);</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="使用Navigator-push"><a href="#使用Navigator-push" class="headerlink" title="使用Navigator.push"></a>使用Navigator.push</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Navigator.push(</span><br><span class="line">    context,</span><br><span class="line">    MaterialPageRoute(builder: (context) =&gt; ThePageYouWantToGo()),</span><br><span class="line">);</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;使用Navigator&quot;&gt;&lt;a href=&quot;#使用Navigator&quot; class=&quot;headerlink&quot; title=&quot;使用Navigator&quot;&gt;&lt;/a&gt;使用Navigator&lt;/h2&gt;&lt;figure class=&quot;highlight dart&quot;&gt;&lt;table
+        &lt;h2 id=&quot;使用Navigator-push&quot;&gt;&lt;a href=&quot;#使用Navigator-push&quot; class=&quot;headerlink&quot; title=&quot;使用Navigator.push&quot;&gt;&lt;/a&gt;使用Navigator.push&lt;/h2&gt;&lt;figure class=&quot;hi
       
     
     </summary>
@@ -73,19 +73,19 @@
   </entry>
   
   <entry>
-    <title>Flutter中使Widget可點擊</title>
+    <title>Flutter中使Widget變為可點擊</title>
     <link href="http://wst24365888.github.io/flutter-make-card-clickable/"/>
     <id>http://wst24365888.github.io/flutter-make-card-clickable/</id>
     <published>2019-07-03T08:12:42.000Z</published>
-    <updated>2019-07-03T08:24:24.664Z</updated>
+    <updated>2019-07-03T08:57:29.399Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="使用GestureDetector包住"><a href="#使用GestureDetector包住" class="headerlink" title="使用GestureDetector包住"></a>使用GestureDetector包住</h2><p>這裡用可以偵測很多手勢的GestureDetector</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">new</span> GestureDetector(</span><br><span class="line">  onTap: <span class="keyword">null</span>,</span><br><span class="line">  child: <span class="keyword">new</span> Card(),</span><br><span class="line">)</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="使用GestureDetector包住"><a href="#使用GestureDetector包住" class="headerlink" title="使用GestureDetector包住"></a>使用GestureDetector包住</h2><p>除此之外，GestureDetector還能偵測很多手勢哦</p><p>至於有什麼其他手勢大家就自己探索了~</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">new</span> GestureDetector(</span><br><span class="line">  onTap: <span class="keyword">null</span>,</span><br><span class="line">  child: <span class="keyword">new</span> Card(),</span><br><span class="line">)</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;使用GestureDetector包住&quot;&gt;&lt;a href=&quot;#使用GestureDetector包住&quot; class=&quot;headerlink&quot; title=&quot;使用GestureDetector包住&quot;&gt;&lt;/a&gt;使用GestureDetector包住&lt;/h2&gt;&lt;p&gt;這裡
+        &lt;h2 id=&quot;使用GestureDetector包住&quot;&gt;&lt;a href=&quot;#使用GestureDetector包住&quot; class=&quot;headerlink&quot; title=&quot;使用GestureDetector包住&quot;&gt;&lt;/a&gt;使用GestureDetector包住&lt;/h2&gt;&lt;p&gt;除此
       
     
     </summary>
