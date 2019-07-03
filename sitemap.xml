@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wst24365888.github.io/flutter-hide-widget/</loc>
+    
+    <lastmod>2019-07-03T10:44:42.295Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wst24365888.github.io/flutter-make-widget-clickable/</loc>
+    
+    <lastmod>2019-07-03T10:43:21.496Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wst24365888.github.io/flutter-singlechildscrollview-in-column/</loc>
     
     <lastmod>2019-07-03T09:55:49.658Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>http://wst24365888.github.io/flutter-change-page/</loc>
     
     <lastmod>2019-07-03T08:57:45.592Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wst24365888.github.io/flutter-make-card-clickable/</loc>
-    
-    <lastmod>2019-07-03T08:57:29.399Z</lastmod>
     
   </url>
   
