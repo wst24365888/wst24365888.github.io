@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-07-03T08:22:48.187Z</updated>
+  <updated>2019-07-03T08:29:10.127Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Flutter中配置BottomNavigationBar的顏色</title>
+    <link href="http://wst24365888.github.io/flutter-bottomnavigationbar-color/"/>
+    <id>http://wst24365888.github.io/flutter-bottomnavigationbar-color/</id>
+    <published>2019-07-03T08:26:38.000Z</published>
+    <updated>2019-07-03T08:29:10.127Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="使用Theme"><a href="#使用Theme" class="headerlink" title="使用Theme"></a>使用Theme</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Theme(</span><br><span class="line">  data: Theme.of(context).copyWith(</span><br><span class="line">    <span class="comment">// background color</span></span><br><span class="line">    canvasColor: Colors.black</span><br><span class="line">    )</span><br><span class="line">  ),</span><br><span class="line">  child: BottomNavigationBar(),</span><br><span class="line">)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;使用Theme&quot;&gt;&lt;a href=&quot;#使用Theme&quot; class=&quot;headerlink&quot; title=&quot;使用Theme&quot;&gt;&lt;/a&gt;使用Theme&lt;/h2&gt;&lt;figure class=&quot;highlight dart&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;
+      
+    
+    </summary>
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/categories/Flutter/"/>
+    
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
+    
+      <category term="BottomNavigationBar" scheme="http://wst24365888.github.io/tags/BottomNavigationBar/"/>
+    
+      <category term="Color" scheme="http://wst24365888.github.io/tags/Color/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Flutter中使Widget可點擊</title>
     <link href="http://wst24365888.github.io/flutter-make-card-clickable/"/>
     <id>http://wst24365888.github.io/flutter-make-card-clickable/</id>
     <published>2019-07-03T08:12:42.000Z</published>
-    <updated>2019-07-03T08:22:48.187Z</updated>
+    <updated>2019-07-03T08:24:24.664Z</updated>
     
     <content type="html"><![CDATA[<h2 id="使用GestureDetector包住"><a href="#使用GestureDetector包住" class="headerlink" title="使用GestureDetector包住"></a>使用GestureDetector包住</h2><p>這裡用可以偵測很多手勢的GestureDetector</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">new</span> GestureDetector(</span><br><span class="line">  onTap: <span class="keyword">null</span>,</span><br><span class="line">  child: <span class="keyword">new</span> Card(),</span><br><span class="line">)</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -129,9 +158,9 @@
     
       <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
-      <category term="Google Analytics" scheme="http://wst24365888.github.io/tags/Google-Analytics/"/>
-    
       <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
+    
+      <category term="Google Analytics" scheme="http://wst24365888.github.io/tags/Google-Analytics/"/>
     
       <category term="Analytics" scheme="http://wst24365888.github.io/tags/Analytics/"/>
     
@@ -218,9 +247,9 @@
     
       <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
-      <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
-    
       <category term="Google Search Console" scheme="http://wst24365888.github.io/tags/Google-Search-Console/"/>
+    
+      <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
     
   </entry>
   
