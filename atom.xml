@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-07-03T08:29:10.127Z</updated>
+  <updated>2019-07-03T08:32:22.976Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://wst24365888.github.io/flutter-bottomnavigationbar-color/"/>
     <id>http://wst24365888.github.io/flutter-bottomnavigationbar-color/</id>
     <published>2019-07-03T08:26:38.000Z</published>
-    <updated>2019-07-03T08:29:10.127Z</updated>
+    <updated>2019-07-03T08:32:22.976Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="使用Theme"><a href="#使用Theme" class="headerlink" title="使用Theme"></a>使用Theme</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Theme(</span><br><span class="line">  data: Theme.of(context).copyWith(</span><br><span class="line">    <span class="comment">// background color</span></span><br><span class="line">    canvasColor: Colors.black</span><br><span class="line">    )</span><br><span class="line">  ),</span><br><span class="line">  child: BottomNavigationBar(),</span><br><span class="line">)</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="使用Theme"><a href="#使用Theme" class="headerlink" title="使用Theme"></a>使用Theme</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Theme(</span><br><span class="line">  data: Theme.of(context).copyWith(</span><br><span class="line">    <span class="comment">// background color</span></span><br><span class="line">    canvasColor: Colors.black</span><br><span class="line">  )),</span><br><span class="line">  child: BottomNavigationBar(),</span><br><span class="line">)</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
