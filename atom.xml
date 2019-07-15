@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-07-03T10:44:42.295Z</updated>
+  <updated>2019-07-15T07:44:08.407Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>安裝Flutter</title>
+    <link href="http://wst24365888.github.io/install-flutter/"/>
+    <id>http://wst24365888.github.io/install-flutter/</id>
+    <published>2019-07-15T01:56:05.000Z</published>
+    <updated>2019-07-15T07:44:08.407Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="下載Flutter-SDK"><a href="#下載Flutter-SDK" class="headerlink" title="下載Flutter SDK"></a>下載Flutter SDK</h2><p>到<a href="https://flutter.dev/docs/get-started/install" target="_blank" rel="noopener">Flutter官網</a>選擇你的平台</p><p>並開始下載Flutter SDK</p><p><img src="052.png" alt></p><p>下載好了之後解壓到你要安裝的資料夾</p><h3 id="Dart-SDK"><a href="#Dart-SDK" class="headerlink" title="Dart SDK"></a>Dart SDK</h3><p>Flutter是基於Dart語言開發的</p><p>所以理論上我們需要Dart SDK</p><p>不過好消息是Dart SDK已經綁在Flutter SDK裡了，所以無需單獨下載</p><h3 id="配置環境變數"><a href="#配置環境變數" class="headerlink" title="配置環境變數"></a>配置環境變數</h3><p>這裡新增的路徑一律都指向bin資料夾</p><p><img src="055.png" alt></p><p><img src="058.png" alt></p><h3 id="Flutter-Doctor"><a href="#Flutter-Doctor" class="headerlink" title="Flutter Doctor"></a>Flutter Doctor</h3><p>配置環境變數之後隨時可以用這個指令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ flutter doctor</span><br></pre></td></tr></table></figure><p>查看是否有那裡沒安裝好或是出問題</p><h2 id="安裝JDK"><a href="#安裝JDK" class="headerlink" title="安裝JDK"></a>安裝JDK</h2><p>到<a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank" rel="noopener">甲骨文官網</a>下載你要的JDK版本</p><p>下載了之後照著他的指示安裝就可以了</p><h3 id="配置環境變數-1"><a href="#配置環境變數-1" class="headerlink" title="配置環境變數"></a>配置環境變數</h3><p><img src="057.png" alt></p><h2 id="安裝Android-Studio"><a href="#安裝Android-Studio" class="headerlink" title="安裝Android Studio"></a>安裝Android Studio</h2><p>到<a href="https://developer.android.com/studio" target="_blank" rel="noopener">Android Studio官網</a>下載Android Studio</p><p>之後照著指示安裝</p><h3 id="Android-SDK"><a href="#Android-SDK" class="headerlink" title="Android SDK"></a>Android SDK</h3><p>在新版的Android Studio安裝過程中</p><p>會提示你要不要裝哦</p><p>記得打勾就好(不過我記得預設就是打勾啦)</p><h3 id="安裝Android-Licenses"><a href="#安裝Android-Licenses" class="headerlink" title="安裝Android Licenses"></a>安裝Android Licenses</h3><p>輸入以下指令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ flutter doctor --android-licenses</span><br></pre></td></tr></table></figure><p>就結束啦~</p><h3 id="創建模擬器"><a href="#創建模擬器" class="headerlink" title="創建模擬器"></a>創建模擬器</h3><p>這裡要來創建一個AVD虛擬機</p><p>也就是在測試時看到的手機畫面</p><p>先到這個畫面</p><p><img src="060.png" alt></p><p>找到Configure點下去</p><p><img src="061.png" alt></p><p>選AVD Manager</p><p><img src="062.png" alt></p><p>接下來就照著提示創建一台虛擬機吧！</p><p><img src="063.png" alt></p><p>到了按Finish之後才是真正完成哦~</p><p><img src="065.png" alt></p><p>按下Launch可以啟動測試看看是否正常運行</p><p><img src="064.png" alt></p><h3 id="安裝語言外掛"><a href="#安裝語言外掛" class="headerlink" title="安裝語言外掛"></a>安裝語言外掛</h3><p>先到這個畫面</p><p><img src="060.png" alt></p><p>找到Configure點下去</p><p><img src="061.png" alt></p><p>這次換成Plugins</p><p><img src="066.png" alt></p><p>搜尋Flutter(記得要大寫)，然後點安裝</p><p>這步他會提示你要連同Dart的外掛一起裝，這裡一直按是就好了</p><p>裝好之後重開會如圖，這樣就完成啦~</p><p><img src="067.png" alt></p><h2 id="編輯器"><a href="#編輯器" class="headerlink" title="編輯器"></a>編輯器</h2><p>這裡可以選擇你要用VS Code編輯，還是Android Studio編輯就好</p><p>這裡我是用VS Code</p><p>所以來安裝個也來安裝個語言外掛</p><p>如圖，Install給他按下去，94簡單</p><p><img src="068.png" alt></p><h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h2><p>一樣輸入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ flutter doctor --android-licenses</span><br></pre></td></tr></table></figure><p>如果只剩這個問題的話，代表你成功啦！</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[!] Connected device</span><br><span class="line">    ! No devices available</span><br></pre></td></tr></table></figure><p>只要用USB線插上你的設備(手機端記得開偵錯)</p><p>或者是用剛剛建立的AVD虛擬機就可以解決這個問題了~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;下載Flutter-SDK&quot;&gt;&lt;a href=&quot;#下載Flutter-SDK&quot; class=&quot;headerlink&quot; title=&quot;下載Flutter SDK&quot;&gt;&lt;/a&gt;下載Flutter SDK&lt;/h2&gt;&lt;p&gt;到&lt;a href=&quot;https://flutter.
+      
+    
+    </summary>
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/categories/Flutter/"/>
+    
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
+    
+      <category term="Install" scheme="http://wst24365888.github.io/tags/Install/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Flutter中隱藏某視窗</title>
     <link href="http://wst24365888.github.io/flutter-hide-widget/"/>
     <id>http://wst24365888.github.io/flutter-hide-widget/</id>
     <published>2019-07-03T10:39:57.000Z</published>
-    <updated>2019-07-03T10:44:42.295Z</updated>
+    <updated>2019-07-03T10:44:42.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="用Visibility包軌"><a href="#用Visibility包軌" class="headerlink" title="用Visibility包軌"></a>用Visibility包軌</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Visibility( </span><br><span class="line">  visible: _isVisible,</span><br><span class="line">  child: YourWidget(),</span><br><span class="line">),</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -39,11 +66,11 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
-    
       <category term="Visibility" scheme="http://wst24365888.github.io/tags/Visibility/"/>
     
       <category term="Hide" scheme="http://wst24365888.github.io/tags/Hide/"/>
+    
+      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
     
   </entry>
   
@@ -52,7 +79,7 @@
     <link href="http://wst24365888.github.io/flutter-singlechildscrollview-in-column/"/>
     <id>http://wst24365888.github.io/flutter-singlechildscrollview-in-column/</id>
     <published>2019-07-03T09:53:23.000Z</published>
-    <updated>2019-07-03T09:55:49.658Z</updated>
+    <updated>2019-07-03T09:55:49.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="用Expanded包住SingleChildScrollView"><a href="#用Expanded包住SingleChildScrollView" class="headerlink" title="用Expanded包住SingleChildScrollView"></a>用Expanded包住SingleChildScrollView</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Column(</span><br><span class="line">  children: &lt;Widget&gt;[</span><br><span class="line">    Expanded(</span><br><span class="line">      child: SingleChildScrollView(),</span><br><span class="line">    )</span><br><span class="line">  ],</span><br><span class="line">),</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -83,7 +110,7 @@
     <link href="http://wst24365888.github.io/flutter-change-page/"/>
     <id>http://wst24365888.github.io/flutter-change-page/</id>
     <published>2019-07-03T08:37:56.000Z</published>
-    <updated>2019-07-03T08:57:45.592Z</updated>
+    <updated>2019-07-03T08:57:45.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="使用Navigator-push"><a href="#使用Navigator-push" class="headerlink" title="使用Navigator.push"></a>使用Navigator.push</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Navigator.push(</span><br><span class="line">    context,</span><br><span class="line">    MaterialPageRoute(builder: (context) =&gt; ThePageYouWantToGo()),</span><br><span class="line">);</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -110,7 +137,7 @@
     <link href="http://wst24365888.github.io/flutter-bottomnavigationbar-color/"/>
     <id>http://wst24365888.github.io/flutter-bottomnavigationbar-color/</id>
     <published>2019-07-03T08:26:38.000Z</published>
-    <updated>2019-07-03T08:32:22.976Z</updated>
+    <updated>2019-07-03T08:32:22.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="使用Theme"><a href="#使用Theme" class="headerlink" title="使用Theme"></a>使用Theme</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Theme(</span><br><span class="line">  data: Theme.of(context).copyWith(</span><br><span class="line">    <span class="comment">// background color</span></span><br><span class="line">    canvasColor: Colors.black</span><br><span class="line">  )),</span><br><span class="line">  child: BottomNavigationBar(),</span><br><span class="line">)</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -139,7 +166,7 @@
     <link href="http://wst24365888.github.io/flutter-make-widget-clickable/"/>
     <id>http://wst24365888.github.io/flutter-make-widget-clickable/</id>
     <published>2019-07-03T08:12:42.000Z</published>
-    <updated>2019-07-03T10:43:21.496Z</updated>
+    <updated>2019-07-03T10:43:21.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="用GestureDetector包起來"><a href="#用GestureDetector包起來" class="headerlink" title="用GestureDetector包起來"></a>用GestureDetector包起來</h2><p>除此之外，GestureDetector還能偵測很多手勢哦</p><p>至於有什麼其他手勢大家就自己探索了~</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">GestureDetector(</span><br><span class="line">  onTap: _yourAction,</span><br><span class="line">  child: YourWidget(),</span><br><span class="line">)</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -157,9 +184,9 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="Card" scheme="http://wst24365888.github.io/tags/Card/"/>
-    
       <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
+    
+      <category term="Card" scheme="http://wst24365888.github.io/tags/Card/"/>
     
       <category term="GestureDetector" scheme="http://wst24365888.github.io/tags/GestureDetector/"/>
     
@@ -170,7 +197,7 @@
     <link href="http://wst24365888.github.io/hexo-rss/"/>
     <id>http://wst24365888.github.io/hexo-rss/</id>
     <published>2019-07-01T02:36:39.000Z</published>
-    <updated>2019-07-01T02:43:37.756Z</updated>
+    <updated>2019-07-01T02:43:26.000Z</updated>
     
     <content type="html"><![CDATA[<p>7月了，好熱…</p><h2 id="安裝套件"><a href="#安裝套件" class="headerlink" title="安裝套件"></a>安裝套件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-feed</span><br></pre></td></tr></table></figure><h2 id="修改站點配置"><a href="#修改站點配置" class="headerlink" title="修改站點配置"></a>修改站點配置</h2><p>到部落格根目錄底下的_config.yml修改配置</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#RSS</span></span><br><span class="line"><span class="attr">plugin:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">hexo-generator-feed</span></span><br><span class="line"><span class="comment">#Feed Atom</span></span><br><span class="line"><span class="attr">feed:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">atom</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">atom.xml</span></span><br><span class="line"><span class="attr">  limit:</span> <span class="number">20</span></span><br></pre></td></tr></table></figure><h2 id="修改主題配置"><a href="#修改主題配置" class="headerlink" title="修改主題配置"></a>修改主題配置</h2><p>如果你使用的主題裡有RSS相關的設定，記得要配置一下</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">rss:</span> <span class="string">/atom.xml</span></span><br></pre></td></tr></table></figure><h2 id="發布"><a href="#發布" class="headerlink" title="發布"></a>發布</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -198,7 +225,7 @@
     <link href="http://wst24365888.github.io/hexo-github/"/>
     <id>http://wst24365888.github.io/hexo-github/</id>
     <published>2019-06-29T13:28:17.000Z</published>
-    <updated>2019-07-01T03:00:45.459Z</updated>
+    <updated>2019-07-01T03:00:45.000Z</updated>
     
     <content type="html"><![CDATA[<p>打完標題才發現GitHub的H應該要是大寫XD</p><h2 id="創建新倉庫"><a href="#創建新倉庫" class="headerlink" title="創建新倉庫"></a>創建新倉庫</h2><p>登入你的Github，然後創建一個新的倉庫(New Repository)</p><p>倉庫名稱為: 你的Github用戶名.github.io</p><p>這是固定寫法!!!</p><h2 id="安裝Git"><a href="#安裝Git" class="headerlink" title="安裝Git"></a>安裝Git</h2><p>如果你還沒安裝Git，到<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">這裡</a>安裝</p><h2 id="綁定Github"><a href="#綁定Github" class="headerlink" title="綁定Github"></a>綁定Github</h2><p>輸入指令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"你的Github用戶名"</span></span><br><span class="line">$ git config --global user.email <span class="string">"你註冊GitHub的電子信箱"</span></span><br></pre></td></tr></table></figure><h2 id="生成密鑰"><a href="#生成密鑰" class="headerlink" title="生成密鑰"></a>生成密鑰</h2><p>輸入指令，接下來都按Enter就好</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"你註冊GitHub的電子信箱"</span></span><br></pre></td></tr></table></figure><p>這裡會生成一個名為id_rsa.pub的SSH密鑰文件</p><p>主要使用非對稱加密來驗證你是否為合法用戶</p><p>不然大家都可以隨意上傳就天下大亂啦~</p><h2 id="到Github新建SSH-Key"><a href="#到Github新建SSH-Key" class="headerlink" title="到Github新建SSH Key"></a>到Github新建SSH Key</h2><h3 id="複製Key"><a href="#複製Key" class="headerlink" title="複製Key"></a>複製Key</h3><p>找到剛剛生成的id_rsa.pub(有點難找，通常在C:/Users/你的使用者名稱/.ssh底下)</p><p>把裡面的內容”全部”複製</p><h3 id="新建SSH-Key"><a href="#新建SSH-Key" class="headerlink" title="新建SSH Key"></a>新建SSH Key</h3><p>接著到<a href="https://github.com/settings/keys" target="_blank" rel="noopener">這裡</a>點New SSH Key</p><p>進入頁面之後(如圖)</p><p><img src="049.png" alt></p><p>Title隨便打</p><p>Key的欄位則貼上剛剛複製的東西</p><p>然後愉快的送出~</p><h3 id="檢查"><a href="#檢查" class="headerlink" title="檢查"></a>檢查</h3><p>輸入指令後，可以檢查GitHub那邊公鑰是否設置成功</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh git@github.com</span><br></pre></td></tr></table></figure><h2 id="安裝Hexo的Git部屬套件"><a href="#安裝Hexo的Git部屬套件" class="headerlink" title="安裝Hexo的Git部屬套件"></a>安裝Hexo的Git部屬套件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git</span><br></pre></td></tr></table></figure><h2 id="修改配置"><a href="#修改配置" class="headerlink" title="修改配置"></a>修改配置</h2><p>到部落格根目錄下的_config.yml文件，並修改為下述的樣子</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span> </span><br><span class="line"><span class="attr">    type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">    repo:</span> <span class="attr">https://github.com/你的Github用戶名/你的Github用戶名.github.io.git</span> <span class="comment">#簡單來說就是你的倉庫網址加.git</span></span><br><span class="line"><span class="attr">    branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure><h2 id="建立靜態檔案並發布"><a href="#建立靜態檔案並發布" class="headerlink" title="建立靜態檔案並發布"></a>建立靜態檔案並發布</h2><p>是的，最重要的發布XD</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h2><p>接著就能到 https://你的Github用戶名.github.io 看到你的成果啦~</p><p>至於更進一步想要綁定域名的話</p><p>我自己也還沒實作</p><p>之後如果有空的話會來做做看</p><p>或許也會寫一篇文章~</p><p>就請大家拭目以待了!</p>]]></content>
     
@@ -228,7 +255,7 @@
     <link href="http://wst24365888.github.io/add-google-analytics/"/>
     <id>http://wst24365888.github.io/add-google-analytics/</id>
     <published>2019-06-28T14:42:10.000Z</published>
-    <updated>2019-06-29T13:15:53.000Z</updated>
+    <updated>2019-06-29T13:15:53.690Z</updated>
     
     <content type="html"><![CDATA[<h2 id="建立帳戶"><a href="#建立帳戶" class="headerlink" title="建立帳戶"></a>建立帳戶</h2><p>先登入Google帳戶，</p><p>再到<a href="https://analytics.google.com/analytics/web/provision/?authuser=0#/provision/create" target="_blank" rel="noopener">這裡</a>去幫這個網站建立一個帳戶(資源)，</p><p>並取得追蹤編號UA-xxxxxxxx-x</p><h2 id="設定編號"><a href="#設定編號" class="headerlink" title="設定編號"></a>設定編號</h2><p>到部落格”themes/你使用的主題”目錄底下的_config.yml修改google_analytics項目</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">google_analytics:</span> <span class="string">UA-xxxxxxxx-x</span></span><br></pre></td></tr></table></figure><h2 id="發佈"><a href="#發佈" class="headerlink" title="發佈"></a>發佈</h2><p>沒錯，還是發布</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><p>就這樣結束啦~!</p>]]></content>
     
@@ -247,9 +274,9 @@
     
       <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
-      <category term="Google Analytics" scheme="http://wst24365888.github.io/tags/Google-Analytics/"/>
-    
       <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
+    
+      <category term="Google Analytics" scheme="http://wst24365888.github.io/tags/Google-Analytics/"/>
     
       <category term="Analytics" scheme="http://wst24365888.github.io/tags/Analytics/"/>
     
@@ -260,7 +287,7 @@
     <link href="http://wst24365888.github.io/hexo-sitemap/"/>
     <id>http://wst24365888.github.io/hexo-sitemap/</id>
     <published>2019-06-28T14:26:13.000Z</published>
-    <updated>2019-07-01T02:44:11.126Z</updated>
+    <updated>2019-07-01T02:44:11.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="建立Sitemap-xml"><a href="#建立Sitemap-xml" class="headerlink" title="建立Sitemap.xml"></a>建立Sitemap.xml</h2><h3 id="安裝套件"><a href="#安裝套件" class="headerlink" title="安裝套件"></a>安裝套件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-sitemap</span><br></pre></td></tr></table></figure><h3 id="加入-sitemap-路徑"><a href="#加入-sitemap-路徑" class="headerlink" title="加入 sitemap 路徑"></a>加入 sitemap 路徑</h3><p>到部落格根目錄底下的_config.yml中加入以下幾行</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#Sitemap</span><br><span class="line">sitemap:</span><br><span class="line">  path: sitemap.xml</span><br></pre></td></tr></table></figure><h3 id="發佈"><a href="#發佈" class="headerlink" title="發佈"></a>發佈</h3><p>對，一樣是發布</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><h2 id="向Google-Search-Console提交"><a href="#向Google-Search-Console提交" class="headerlink" title="向Google Search Console提交"></a>向Google Search Console提交</h2><p>到<a href="https://search.google.com/search-console" target="_blank" rel="noopener">Google Search Console</a>中Sitemap的選項去提交網址就行了</p><p><img src="048.png" alt></p>]]></content>
     
@@ -289,7 +316,7 @@
     <link href="http://wst24365888.github.io/hexo-tags/"/>
     <id>http://wst24365888.github.io/hexo-tags/</id>
     <published>2019-06-28T14:11:23.000Z</published>
-    <updated>2019-06-29T14:01:19.000Z</updated>
+    <updated>2019-06-29T14:01:19.260Z</updated>
     
     <content type="html"><![CDATA[<h2 id="WTF"><a href="#WTF" class="headerlink" title="WTF?"></a>WTF?</h2><p>如果你也像我一樣白目想換tags中的大小寫</p><p>例如: hexo -&gt; Hexo</p><p>會發現，疑?</p><p>怎麼tags/Hexo沒作用了?</p><h2 id="How-to-solve"><a href="#How-to-solve" class="headerlink" title="How to solve?"></a>How to solve?</h2><h3 id="已成功"><a href="#已成功" class="headerlink" title="已成功"></a>已成功</h3><ol><li>首先把所有文章的tags註解起來</li></ol><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">#tags: [Hexo, Tags]</span></span><br></pre></td></tr></table></figure><ol start="2"><li>刪除靜態檔案，然後重新建立靜態檔案並發布</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><ol start="3"><li>再來把所有文章的tags註解去掉</li></ol><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tags: [Hexo, Tags]</span><br></pre></td></tr></table></figure><ol start="4"><li>最後建立靜態檔案並發布</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><h3 id="猜測"><a href="#猜測" class="headerlink" title="猜測"></a>猜測</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo d</span><br><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><p>會不會其實這樣就可以了呢@@</p><p>或許根本不用動到註解(還要一個一個文章慢慢動，有夠慢)</p><p>不過既然上面成功了，也懶得去多嘗試了</p><p>如果有測試成功可以在下面留言告訴我哦</p><h2 id="Why"><a href="#Why" class="headerlink" title="Why?"></a>Why?</h2><p>根據<a href="https://stackoverflow.com/questions/17683458/how-do-i-commit-case-sensitive-only-filename-changes-in-git/17688308#17688308" target="_blank" rel="noopener">這篇文章</a></p><p>會發現資料夾中Case Sensitive(只替換大小寫)的動作會被忽略</p><p>其實在Hexo中的tags都會生成在public/tags/</p><p>其中因為public/tags/hexo被替換成public/tags/Hexo這件事被忽略了</p><p>自然也就找不到路徑啦~</p>]]></content>
     
@@ -318,7 +345,7 @@
     <link href="http://wst24365888.github.io/add-google-search-console/"/>
     <id>http://wst24365888.github.io/add-google-search-console/</id>
     <published>2019-06-28T12:33:53.000Z</published>
-    <updated>2019-06-28T15:42:38.000Z</updated>
+    <updated>2019-06-28T15:42:38.835Z</updated>
     
     <content type="html"><![CDATA[<h2 id="申請-Google-Search-Console"><a href="#申請-Google-Search-Console" class="headerlink" title="申請 Google Search Console"></a>申請 Google Search Console</h2><ol><li>到<a href="https://search.google.com/search-console/welcome" target="_blank" rel="noopener">Google Search Console</a>中，選取右邊那個並貼上你的網站網址(記得先登入Google!)</li></ol><p><img src="044.png" alt></p><ol start="2"><li>下載它所提供的html檔，放到部落格根目錄下”public資料夾”中並發布</li></ol><p><img src="045.png" alt></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><ol start="3"><li>點下驗證，完成!</li></ol>]]></content>
     
@@ -336,9 +363,9 @@
     
       <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
-      <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
-    
       <category term="Google Search Console" scheme="http://wst24365888.github.io/tags/Google-Search-Console/"/>
+    
+      <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
     
   </entry>
   
@@ -347,7 +374,7 @@
     <link href="http://wst24365888.github.io/add-image/"/>
     <id>http://wst24365888.github.io/add-image/</id>
     <published>2019-06-28T12:15:45.000Z</published>
-    <updated>2019-06-28T15:42:36.000Z</updated>
+    <updated>2019-06-28T15:42:36.226Z</updated>
     
     <content type="html"><![CDATA[<h2 id="語法"><a href="#語法" class="headerlink" title="語法"></a>語法</h2><p>在Hexo中是使用Markdown語法，而在Markdown中插入圖片的語法為</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Alt描述](圖片路徑)</span><br></pre></td></tr></table></figure><h3 id="本地"><a href="#本地" class="headerlink" title="本地"></a>本地</h3><p>如果圖片要放在Hexo本地，可以到專案根目錄底下的_config.yml中設定開啟assets資料夾</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>如此一來在生成一個新文章時就會開啟一個與文章同名的資料夾，到時候就可以直接訪問，例如</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Alt描述](image.jpg)</span><br></pre></td></tr></table></figure><h3 id="網路上"><a href="#網路上" class="headerlink" title="網路上"></a>網路上</h3><p>也可以將圖片放在網路上，到時直接將圖片的網址拿來用，例如</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Alt描述](https://wst24365888.github.io/image.jpg)</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -375,7 +402,7 @@
     <link href="http://wst24365888.github.io/hexo-site/"/>
     <id>http://wst24365888.github.io/hexo-site/</id>
     <published>2019-06-27T14:00:00.000Z</published>
-    <updated>2019-06-29T13:39:30.000Z</updated>
+    <updated>2019-06-29T13:39:30.703Z</updated>
     
     <content type="html"><![CDATA[<h2 id="環境"><a href="#環境" class="headerlink" title="環境"></a>環境</h2><h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><p>到<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js官方下載網站</a>下載安裝包，這裡會一併包含npm的安裝</p><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>安裝Hexo</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h2 id="簡易指令"><a href="#簡易指令" class="headerlink" title="簡易指令"></a>簡易指令</h2><h3 id="建立新的部落格"><a href="#建立新的部落格" class="headerlink" title="建立新的部落格"></a>建立新的部落格</h3><p>輸入指令後，將會在當前目錄下建立一個名為blog的部落格專案</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog</span><br></pre></td></tr></table></figure><h3 id="建立新的文章"><a href="#建立新的文章" class="headerlink" title="建立新的文章"></a>建立新的文章</h3><p>輸入指令後，將會在source/_post下建立一個名為article.md的文章</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new article</span><br></pre></td></tr></table></figure><h3 id="生成靜態檔案"><a href="#生成靜態檔案" class="headerlink" title="生成靜態檔案"></a>生成靜態檔案</h3><p>輸入指令後，將會在根目錄下配置db.json，以及在public下建立此網站的靜態檔案</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h3 id="刪除靜態檔案"><a href="#刪除靜態檔案" class="headerlink" title="刪除靜態檔案"></a>刪除靜態檔案</h3><p>輸入指令後，將會在根目錄下重置db.json，以及刪除在public下建立的靜態檔案</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure><h3 id="在本地伺服器中執行"><a href="#在本地伺服器中執行" class="headerlink" title="在本地伺服器中執行"></a>在本地伺服器中執行</h3><p>輸入指令後，在瀏覽器輸入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>即可在本地端預覽</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h3 id="發佈"><a href="#發佈" class="headerlink" title="發佈"></a>發佈</h3><p><a href="https://wst24365888.github.io/">Xyphuz’s Note</a>這個專案是部屬到GitHub的，這裡之後會再寫<a href="https://wst24365888.github.io/hexo-github">文章</a>做說明(有空的話啦XD)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>]]></content>
     
