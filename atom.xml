@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-07-15T08:10:00.639Z</updated>
+  <updated>2019-07-16T03:03:10.896Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解決Flutter中Target of URI doesn&#39;t exist的問題</title>
+    <link href="http://wst24365888.github.io/flutter-target-of-uri-does-not-exist/"/>
+    <id>http://wst24365888.github.io/flutter-target-of-uri-does-not-exist/</id>
+    <published>2019-07-16T02:53:26.000Z</published>
+    <updated>2019-07-16T03:03:10.896Z</updated>
+    
+    <content type="html"><![CDATA[<p>才剛換個環境</p><p>結果就跑出令人頭痛的問題</p><p>所有引入的packages全部找不到，如圖</p><p><img src="070.png" alt></p><h2 id="用Flutter-Pub-Get"><a href="#用Flutter-Pub-Get" class="headerlink" title="用Flutter Pub Get"></a>用Flutter Pub Get</h2><p>輸入以下指令，再重開VS Code就解決啦~</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ flutter pub get</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;才剛換個環境&lt;/p&gt;
+&lt;p&gt;結果就跑出令人頭痛的問題&lt;/p&gt;
+&lt;p&gt;所有引入的packages全部找不到，如圖&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;070.png&quot; alt&gt;&lt;/p&gt;
+&lt;h2 id=&quot;用Flutter-Pub-Get&quot;&gt;&lt;a href=&quot;#用Flutter-P
+      
+    
+    </summary>
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/categories/Flutter/"/>
+    
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
+    
+      <category term="Packages" scheme="http://wst24365888.github.io/tags/Packages/"/>
+    
+      <category term="Pub" scheme="http://wst24365888.github.io/tags/Pub/"/>
+    
+  </entry>
   
   <entry>
     <title>安裝Flutter</title>
@@ -66,11 +99,11 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
+      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
+    
       <category term="Visibility" scheme="http://wst24365888.github.io/tags/Visibility/"/>
     
       <category term="Hide" scheme="http://wst24365888.github.io/tags/Hide/"/>
-    
-      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
     
   </entry>
   
@@ -184,9 +217,9 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
-    
       <category term="Card" scheme="http://wst24365888.github.io/tags/Card/"/>
+    
+      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
     
       <category term="GestureDetector" scheme="http://wst24365888.github.io/tags/GestureDetector/"/>
     
@@ -274,9 +307,9 @@
     
       <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
-      <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
-    
       <category term="Google Analytics" scheme="http://wst24365888.github.io/tags/Google-Analytics/"/>
+    
+      <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
     
       <category term="Analytics" scheme="http://wst24365888.github.io/tags/Analytics/"/>
     
@@ -363,9 +396,9 @@
     
       <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
-      <category term="Google Search Console" scheme="http://wst24365888.github.io/tags/Google-Search-Console/"/>
-    
       <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
+    
+      <category term="Google Search Console" scheme="http://wst24365888.github.io/tags/Google-Search-Console/"/>
     
   </entry>
   
