@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-07-17T06:54:27.803Z</updated>
+  <updated>2019-07-17T07:10:56.934Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://wst24365888.github.io/flutter-row-column-overflow/"/>
     <id>http://wst24365888.github.io/flutter-row-column-overflow/</id>
     <published>2019-07-17T06:46:52.000Z</published>
-    <updated>2019-07-17T06:54:27.803Z</updated>
+    <updated>2019-07-17T07:10:56.934Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="防止Row中的東西Overflow"><a href="#防止Row中的東西Overflow" class="headerlink" title="防止Row中的東西Overflow"></a>防止Row中的東西Overflow</h2><p>這裡使用Expanded</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">child: Row(</span><br><span class="line">  children: &lt;Widget&gt;[</span><br><span class="line">    Expanded(</span><br><span class="line">      child: Text(...),</span><br><span class="line">    )</span><br><span class="line">  ],</span><br><span class="line">),</span><br></pre></td></tr></table></figure><h2 id="防止Column中的東西Overflow"><a href="#防止Column中的東西Overflow" class="headerlink" title="防止Column中的東西Overflow"></a>防止Column中的東西Overflow</h2><p>這裡使用SingleChildScrollView</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">child: SingleChildScrollView(</span><br><span class="line">  child: Column(</span><br><span class="line">    children: &lt;Widget&gt;[</span><br><span class="line">      YourWidget(),</span><br><span class="line">      YourWidget(),</span><br><span class="line">      YourWidget(),</span><br><span class="line">    ],</span><br><span class="line">  ),</span><br><span class="line">),</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="防止Row中的東西Overflow"><a href="#防止Row中的東西Overflow" class="headerlink" title="防止Row中的東西Overflow"></a>防止Row中的東西Overflow</h2><p>這裡使用Expanded或Flexible都可以</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">child: Row(</span><br><span class="line">  children: &lt;Widget&gt;[</span><br><span class="line">    Expanded(</span><br><span class="line">      child: Text(...),</span><br><span class="line">    )</span><br><span class="line">  ],</span><br><span class="line">),</span><br></pre></td></tr></table></figure><h2 id="防止Column中的東西Overflow"><a href="#防止Column中的東西Overflow" class="headerlink" title="防止Column中的東西Overflow"></a>防止Column中的東西Overflow</h2><p>這裡使用SingleChildScrollView</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">child: SingleChildScrollView(</span><br><span class="line">  child: Column(</span><br><span class="line">    children: &lt;Widget&gt;[</span><br><span class="line">      YourWidget(),</span><br><span class="line">      YourWidget(),</span><br><span class="line">      YourWidget(),</span><br><span class="line">    ],</span><br><span class="line">  ),</span><br><span class="line">),</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -48,6 +48,8 @@
       <category term="Column" scheme="http://wst24365888.github.io/tags/Column/"/>
     
       <category term="SingleChildScrollView" scheme="http://wst24365888.github.io/tags/SingleChildScrollView/"/>
+    
+      <category term="Flexible" scheme="http://wst24365888.github.io/tags/Flexible/"/>
     
   </entry>
   
