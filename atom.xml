@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-07-17T04:35:45.300Z</updated>
+  <updated>2019-07-17T06:54:27.803Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解決Flutter中Row與Column之Overflow的問題</title>
+    <link href="http://wst24365888.github.io/flutter-row-column-overflow/"/>
+    <id>http://wst24365888.github.io/flutter-row-column-overflow/</id>
+    <published>2019-07-17T06:46:52.000Z</published>
+    <updated>2019-07-17T06:54:27.803Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="防止Row中的東西Overflow"><a href="#防止Row中的東西Overflow" class="headerlink" title="防止Row中的東西Overflow"></a>防止Row中的東西Overflow</h2><p>這裡使用Expanded</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">child: Row(</span><br><span class="line">  children: &lt;Widget&gt;[</span><br><span class="line">    Expanded(</span><br><span class="line">      child: Text(...),</span><br><span class="line">    )</span><br><span class="line">  ],</span><br><span class="line">),</span><br></pre></td></tr></table></figure><h2 id="防止Column中的東西Overflow"><a href="#防止Column中的東西Overflow" class="headerlink" title="防止Column中的東西Overflow"></a>防止Column中的東西Overflow</h2><p>這裡使用SingleChildScrollView</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">child: SingleChildScrollView(</span><br><span class="line">  child: Column(</span><br><span class="line">    children: &lt;Widget&gt;[</span><br><span class="line">      YourWidget(),</span><br><span class="line">      YourWidget(),</span><br><span class="line">      YourWidget(),</span><br><span class="line">    ],</span><br><span class="line">  ),</span><br><span class="line">),</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;防止Row中的東西Overflow&quot;&gt;&lt;a href=&quot;#防止Row中的東西Overflow&quot; class=&quot;headerlink&quot; title=&quot;防止Row中的東西Overflow&quot;&gt;&lt;/a&gt;防止Row中的東西Overflow&lt;/h2&gt;&lt;p&gt;這裡使用Expand
+      
+    
+    </summary>
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/categories/Flutter/"/>
+    
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
+    
+      <category term="Overflow" scheme="http://wst24365888.github.io/tags/Overflow/"/>
+    
+      <category term="Row" scheme="http://wst24365888.github.io/tags/Row/"/>
+    
+      <category term="Expanded" scheme="http://wst24365888.github.io/tags/Expanded/"/>
+    
+      <category term="Column" scheme="http://wst24365888.github.io/tags/Column/"/>
+    
+      <category term="SingleChildScrollView" scheme="http://wst24365888.github.io/tags/SingleChildScrollView/"/>
+    
+  </entry>
   
   <entry>
     <title>將Flutter App設置為全屏</title>
@@ -155,11 +190,11 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
-    
       <category term="Visibility" scheme="http://wst24365888.github.io/tags/Visibility/"/>
     
       <category term="Hide" scheme="http://wst24365888.github.io/tags/Hide/"/>
+    
+      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
     
   </entry>
   
@@ -168,7 +203,7 @@
     <link href="http://wst24365888.github.io/flutter-singlechildscrollview-in-column/"/>
     <id>http://wst24365888.github.io/flutter-singlechildscrollview-in-column/</id>
     <published>2019-07-03T09:53:23.000Z</published>
-    <updated>2019-07-03T09:55:49.000Z</updated>
+    <updated>2019-07-17T06:44:38.961Z</updated>
     
     <content type="html"><![CDATA[<h2 id="用Expanded包住SingleChildScrollView"><a href="#用Expanded包住SingleChildScrollView" class="headerlink" title="用Expanded包住SingleChildScrollView"></a>用Expanded包住SingleChildScrollView</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Column(</span><br><span class="line">  children: &lt;Widget&gt;[</span><br><span class="line">    Expanded(</span><br><span class="line">      child: SingleChildScrollView(),</span><br><span class="line">    )</span><br><span class="line">  ],</span><br><span class="line">),</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -186,11 +221,11 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="SingleChildScrollView" scheme="http://wst24365888.github.io/tags/SingleChildScrollView/"/>
+      <category term="Expanded" scheme="http://wst24365888.github.io/tags/Expanded/"/>
     
       <category term="Column" scheme="http://wst24365888.github.io/tags/Column/"/>
     
-      <category term="Expanded" scheme="http://wst24365888.github.io/tags/Expanded/"/>
+      <category term="SingleChildScrollView" scheme="http://wst24365888.github.io/tags/SingleChildScrollView/"/>
     
   </entry>
   
@@ -273,9 +308,9 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="Card" scheme="http://wst24365888.github.io/tags/Card/"/>
-    
       <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
+    
+      <category term="Card" scheme="http://wst24365888.github.io/tags/Card/"/>
     
       <category term="GestureDetector" scheme="http://wst24365888.github.io/tags/GestureDetector/"/>
     
