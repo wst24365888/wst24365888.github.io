@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-07-16T03:03:10.896Z</updated>
+  <updated>2019-07-17T04:35:45.300Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>將Flutter App設置為全屏</title>
+    <link href="http://wst24365888.github.io/flutter-full-screen/"/>
+    <id>http://wst24365888.github.io/flutter-full-screen/</id>
+    <published>2019-07-17T04:34:15.000Z</published>
+    <updated>2019-07-17T04:35:45.300Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="用SystemChrome"><a href="#用SystemChrome" class="headerlink" title="用SystemChrome"></a>用SystemChrome</h2><h3 id="引入services-dart"><a href="#引入services-dart" class="headerlink" title="引入services.dart"></a>引入services.dart</h3><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">'package:flutter/services.dart'</span>;</span><br></pre></td></tr></table></figure><h3 id="修改整個app"><a href="#修改整個app" class="headerlink" title="修改整個app"></a>修改整個app</h3><p>在main()函數中加入</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> main() &#123;</span><br><span class="line"></span><br><span class="line">  SystemChrome.setEnabledSystemUIOverlays([]);</span><br><span class="line"></span><br><span class="line">  runApp(...);</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;用SystemChrome&quot;&gt;&lt;a href=&quot;#用SystemChrome&quot; class=&quot;headerlink&quot; title=&quot;用SystemChrome&quot;&gt;&lt;/a&gt;用SystemChrome&lt;/h2&gt;&lt;h3 id=&quot;引入services-dart&quot;&gt;&lt;a h
+      
+    
+    </summary>
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/categories/Flutter/"/>
+    
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
+    
+      <category term="SystemChrome" scheme="http://wst24365888.github.io/tags/SystemChrome/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在Flutter中固定方向</title>
+    <link href="http://wst24365888.github.io/flutter-orientation/"/>
+    <id>http://wst24365888.github.io/flutter-orientation/</id>
+    <published>2019-07-17T04:21:01.000Z</published>
+    <updated>2019-07-17T04:29:45.448Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="用SystemChrome"><a href="#用SystemChrome" class="headerlink" title="用SystemChrome"></a>用SystemChrome</h2><h3 id="引入services-dart"><a href="#引入services-dart" class="headerlink" title="引入services.dart"></a>引入services.dart</h3><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">'package:flutter/services.dart'</span>;</span><br></pre></td></tr></table></figure><h3 id="修改整個app"><a href="#修改整個app" class="headerlink" title="修改整個app"></a>修改整個app</h3><p>在main()函數中加入</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> main() &#123;</span><br><span class="line"></span><br><span class="line">  SystemChrome.setPreferredOrientations([</span><br><span class="line">    <span class="comment">//你要的方向</span></span><br><span class="line">    DeviceOrientation.portraitUp,</span><br><span class="line">    DeviceOrientation.portraitDown,</span><br><span class="line">  ]);</span><br><span class="line"></span><br><span class="line">  runApp(...);</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="修改單一頁面"><a href="#修改單一頁面" class="headerlink" title="修改單一頁面"></a>修改單一頁面</h3><p>在該頁面的initState()函數中加入</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@override</span></span><br><span class="line"><span class="keyword">void</span> initState() &#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">super</span>.initState();</span><br><span class="line"></span><br><span class="line">  SystemChrome.setPreferredOrientations([</span><br><span class="line">    <span class="comment">//你要的方向</span></span><br><span class="line">    DeviceOrientation.landscapeRight,</span><br><span class="line">    DeviceOrientation.landscapeLeft,</span><br><span class="line">  ]);</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>在該頁面的dispose()函數中加入</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@override</span></span><br><span class="line"><span class="keyword">void</span> dispose() &#123;</span><br><span class="line"></span><br><span class="line">  SystemChrome.setPreferredOrientations([</span><br><span class="line">    <span class="comment">//代表遺棄時方向改為直立</span></span><br><span class="line">    DeviceOrientation.portraitUp,</span><br><span class="line">    DeviceOrientation.portraitDown,</span><br><span class="line">  ]);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">super</span>.dispose();</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;用SystemChrome&quot;&gt;&lt;a href=&quot;#用SystemChrome&quot; class=&quot;headerlink&quot; title=&quot;用SystemChrome&quot;&gt;&lt;/a&gt;用SystemChrome&lt;/h2&gt;&lt;h3 id=&quot;引入services-dart&quot;&gt;&lt;a h
+      
+    
+    </summary>
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/categories/Flutter/"/>
+    
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
+    
+      <category term="SystemChrome" scheme="http://wst24365888.github.io/tags/SystemChrome/"/>
+    
+      <category term="Orientation" scheme="http://wst24365888.github.io/tags/Orientation/"/>
+    
+  </entry>
   
   <entry>
     <title>解決Flutter中Target of URI doesn&#39;t exist的問題</title>
