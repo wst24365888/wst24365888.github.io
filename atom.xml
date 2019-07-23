@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-07-23T12:25:02.077Z</updated>
+  <updated>2019-07-23T12:30:32.303Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -17,13 +17,51 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Xoops App Releases</title>
+    <link href="http://wst24365888.github.io/xoops-app/"/>
+    <id>http://wst24365888.github.io/xoops-app/</id>
+    <published>2019-07-23T12:29:10.000Z</published>
+    <updated>2019-07-23T12:30:32.303Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="最新版連結"><a href="#最新版連結" class="headerlink" title="最新版連結"></a>最新版連結</h2><h2 id="歷史版本"><a href="#歷史版本" class="headerlink" title="歷史版本"></a>歷史版本</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;最新版連結&quot;&gt;&lt;a href=&quot;#最新版連結&quot; class=&quot;headerlink&quot; title=&quot;最新版連結&quot;&gt;&lt;/a&gt;最新版連結&lt;/h2&gt;&lt;h2 id=&quot;歷史版本&quot;&gt;&lt;a href=&quot;#歷史版本&quot; class=&quot;headerlink&quot; title=&quot;歷史版本&quot;
+      
+    
+    </summary>
+    
+      <category term="Release" scheme="http://wst24365888.github.io/categories/Release/"/>
+    
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
+    
+      <category term="Xoops" scheme="http://wst24365888.github.io/tags/Xoops/"/>
+    
+      <category term="App" scheme="http://wst24365888.github.io/tags/App/"/>
+    
+      <category term="Release" scheme="http://wst24365888.github.io/tags/Release/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Xoops App Release v1.0.0</title>
     <link href="http://wst24365888.github.io/xoops-app-v100/"/>
     <id>http://wst24365888.github.io/xoops-app-v100/</id>
     <published>2019-07-23T12:23:31.000Z</published>
-    <updated>2019-07-23T12:25:02.077Z</updated>
+    <updated>2019-07-23T12:30:45.114Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="版本連結"><a href="#版本連結" class="headerlink" title="版本連結"></a>版本連結</h2>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;版本連結&quot;&gt;&lt;a href=&quot;#版本連結&quot; class=&quot;headerlink&quot; title=&quot;版本連結&quot;&gt;&lt;/a&gt;版本連結&lt;/h2&gt;
+      
     
     </summary>
     
@@ -127,9 +165,9 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="Orientation" scheme="http://wst24365888.github.io/tags/Orientation/"/>
-    
       <category term="SystemChrome" scheme="http://wst24365888.github.io/tags/SystemChrome/"/>
+    
+      <category term="Orientation" scheme="http://wst24365888.github.io/tags/Orientation/"/>
     
   </entry>
   
@@ -216,11 +254,11 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
-    
       <category term="Visibility" scheme="http://wst24365888.github.io/tags/Visibility/"/>
     
       <category term="Hide" scheme="http://wst24365888.github.io/tags/Hide/"/>
+    
+      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
     
   </entry>
   
@@ -334,9 +372,9 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="Card" scheme="http://wst24365888.github.io/tags/Card/"/>
-    
       <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
+    
+      <category term="Card" scheme="http://wst24365888.github.io/tags/Card/"/>
     
       <category term="GestureDetector" scheme="http://wst24365888.github.io/tags/GestureDetector/"/>
     
