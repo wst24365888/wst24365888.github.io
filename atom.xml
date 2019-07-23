@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-07-23T14:30:23.359Z</updated>
+  <updated>2019-07-23T16:45:44.696Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://wst24365888.github.io/xoops-app/"/>
     <id>http://wst24365888.github.io/xoops-app/</id>
     <published>2019-07-23T12:29:10.000Z</published>
-    <updated>2019-07-23T14:30:23.359Z</updated>
+    <updated>2019-07-23T16:45:44.696Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="最新版本"><a href="#最新版本" class="headerlink" title="最新版本"></a>最新版本</h2><p><a href="xoops-app-latest-version.apk">點此下載最新版本</a></p><h2 id="歷史版本"><a href="#歷史版本" class="headerlink" title="歷史版本"></a>歷史版本</h2><h3 id="v1-0-0"><a href="#v1-0-0" class="headerlink" title="v1.0.0"></a>v1.0.0</h3><p><a href="https://wst24365888.github.io/xoops-app-v100/">前往下載v1.0.0</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="最新版本"><a href="#最新版本" class="headerlink" title="最新版本"></a>最新版本</h2><p><a href="xoops-app-latest-version.apk">點此下載最新版本</a></p><h2 id="使用說明"><a href="#使用說明" class="headerlink" title="使用說明"></a>使用說明</h2><p>下載完apk並安裝好後</p><p>打開「XOOPS網站」會進入設定頁面，如下</p><p><img src="4.png" alt></p><p>按下「掃描QR Code以進行設定」</p><p><img src="1.png" alt></p><p>並對準需要設定的網站中QR Code的區塊</p><p>(注意！這裡要安裝Tad Tools 3.2.8以上的網站才可能有此區塊)</p><p><img src="072.png" alt></p><p>如果出現下列任一種情況</p><ul><li>頁面跳轉</li></ul><p><img src="3.png" alt></p><ul><li>「網站名稱」和「Domain」都不是”unknown”</li></ul><p><img src="2.png" alt></p><p>就代表設定完成了~</p><h2 id="歷史版本"><a href="#歷史版本" class="headerlink" title="歷史版本"></a>歷史版本</h2><h3 id="v1-0-0"><a href="#v1-0-0" class="headerlink" title="v1.0.0"></a>v1.0.0</h3><p><a href="https://wst24365888.github.io/xoops-app-v100/">前往下載v1.0.0</a></p>]]></content>
     
     <summary type="html">
     
@@ -53,16 +53,18 @@
     <link href="http://wst24365888.github.io/xoops-app-v100/"/>
     <id>http://wst24365888.github.io/xoops-app-v100/</id>
     <published>2019-07-23T12:23:31.000Z</published>
-    <updated>2019-07-23T14:30:20.883Z</updated>
+    <updated>2019-07-23T16:47:00.858Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="下載連結"><a href="#下載連結" class="headerlink" title="下載連結"></a>下載連結</h2><p><a href="xoops-app-version-1.0.0.apk">點此下載v1.0.0</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="版本紀錄"><a href="#版本紀錄" class="headerlink" title="版本紀錄"></a>版本紀錄</h2><ul><li><p>新增 - 支援tadnews</p></li><li><p>新增 - 支援tadgallery</p></li></ul><h2 id="下載連結"><a href="#下載連結" class="headerlink" title="下載連結"></a>下載連結</h2><p><a href="xoops-app-version-1.0.0.apk">點此下載v1.0.0</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;下載連結&quot;&gt;&lt;a href=&quot;#下載連結&quot; class=&quot;headerlink&quot; title=&quot;下載連結&quot;&gt;&lt;/a&gt;下載連結&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;xoops-app-version-1.0.0.apk&quot;&gt;點此下載v1.0.0&lt;/a&gt;&lt;/p&gt;
-
+        &lt;h2 id=&quot;版本紀錄&quot;&gt;&lt;a href=&quot;#版本紀錄&quot; class=&quot;headerlink&quot; title=&quot;版本紀錄&quot;&gt;&lt;/a&gt;版本紀錄&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;新增 - 支援tadnews&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;新增 - 支援tadgallery&lt;/p&gt;
       
     
     </summary>
