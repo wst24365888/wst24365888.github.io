@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-08-12T04:06:45.999Z</updated>
+  <updated>2019-09-06T08:45:33.412Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Just Scan Releases</title>
+    <link href="http://wst24365888.github.io/xyphuz-scanner/"/>
+    <id>http://wst24365888.github.io/xyphuz-scanner/</id>
+    <published>2019-09-06T08:28:10.000Z</published>
+    <updated>2019-09-06T08:45:33.412Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="最新版本"><a href="#最新版本" class="headerlink" title="最新版本"></a>最新版本</h2><ul><li><p><a href="xyphuz-scanner-version-1.0.0.apk">直接下載最新版本 v1.0.0</a> (2019/09/06 釋出)</p></li><li><p>從<a href="xyphuz-scanner-version-1.0.0.apk">Play商店</a>安裝(因為須審核，所以版本更新上可能較慢)</p></li></ul><h2 id="功能簡介"><a href="#功能簡介" class="headerlink" title="功能簡介"></a>功能簡介</h2><ul><li><p>掃條碼 - 即時的條碼掃描</p></li><li><p>上傳檔案 - 分析檔案中的條碼或文字(文字僅支援拉丁語系)</p></li><li><p>生成條碼 - 以您的文字內容來生成一個新的QR Code</p></li><li><p>檢視結果 - 可以複製結果的文字、也可以在瀏覽器中開啟，並支援分享功能</p></li><li><p>檢視歷史 - 可以查看您所有的歷史結果</p></li><li><p>設定 - 目前可以切換中、英文版本</p></li></ul><h2 id="螢幕截圖"><a href="#螢幕截圖" class="headerlink" title="螢幕截圖"></a>螢幕截圖</h2><p><img src="1.jpg" alt></p><p><img src="2.jpg" alt></p><p><img src="3.jpg" alt></p><p><img src="4.jpg" alt></p><p><img src="5.jpg" alt></p><p><img src="6.jpg" alt></p><p><img src="7.jpg" alt></p><p><img src="8.jpg" alt></p><h2 id="歷史版本"><a href="#歷史版本" class="headerlink" title="歷史版本"></a>歷史版本</h2><h3 id="v1-0-0-2019-09-06-釋出"><a href="#v1-0-0-2019-09-06-釋出" class="headerlink" title="v1.0.0 (2019/09/06 釋出)"></a>v1.0.0 (2019/09/06 釋出)</h3><ul><li><p>新稱 - 掃條碼</p></li><li><p>新稱 - 上傳檔案</p></li><li><p>新稱 - 生成條碼</p></li><li><p>新稱 - 檢視結果</p></li><li><p>新稱 - 檢視歷史</p></li><li><p>新稱 - 設定</p></li></ul><p><a href="xyphuz-scanner-version-1.0.0.apk">前往下載v1.0.0</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;最新版本&quot;&gt;&lt;a href=&quot;#最新版本&quot; class=&quot;headerlink&quot; title=&quot;最新版本&quot;&gt;&lt;/a&gt;最新版本&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;xyphuz-scanner-version-1.0.0.apk&quot;&gt;直接下載最新版本 v
+      
+    
+    </summary>
+    
+      <category term="Release" scheme="http://wst24365888.github.io/categories/Release/"/>
+    
+    
+      <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
+    
+      <category term="App" scheme="http://wst24365888.github.io/tags/App/"/>
+    
+      <category term="Release" scheme="http://wst24365888.github.io/tags/Release/"/>
+    
+      <category term="Just Scan" scheme="http://wst24365888.github.io/tags/Just-Scan/"/>
+    
+      <category term="QR" scheme="http://wst24365888.github.io/tags/QR/"/>
+    
+      <category term="QR Code" scheme="http://wst24365888.github.io/tags/QR-Code/"/>
+    
+      <category term="Barcode" scheme="http://wst24365888.github.io/tags/Barcode/"/>
+    
+  </entry>
   
   <entry>
     <title>淺談Dart中的Mixin</title>
@@ -41,13 +79,13 @@
     
       <category term="Dart" scheme="http://wst24365888.github.io/tags/Dart/"/>
     
-      <category term="Extends" scheme="http://wst24365888.github.io/tags/Extends/"/>
-    
-      <category term="Abstract" scheme="http://wst24365888.github.io/tags/Abstract/"/>
-    
       <category term="Mixin" scheme="http://wst24365888.github.io/tags/Mixin/"/>
     
+      <category term="Extends" scheme="http://wst24365888.github.io/tags/Extends/"/>
+    
       <category term="With" scheme="http://wst24365888.github.io/tags/With/"/>
+    
+      <category term="Abstract" scheme="http://wst24365888.github.io/tags/Abstract/"/>
     
   </entry>
   
@@ -78,9 +116,9 @@
     
       <category term="Extends" scheme="http://wst24365888.github.io/tags/Extends/"/>
     
-      <category term="Implements" scheme="http://wst24365888.github.io/tags/Implements/"/>
-    
       <category term="Abstract" scheme="http://wst24365888.github.io/tags/Abstract/"/>
+    
+      <category term="Implements" scheme="http://wst24365888.github.io/tags/Implements/"/>
     
   </entry>
   
@@ -165,17 +203,17 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
+      <category term="SingleChildScrollView" scheme="http://wst24365888.github.io/tags/SingleChildScrollView/"/>
+    
+      <category term="Column" scheme="http://wst24365888.github.io/tags/Column/"/>
+    
+      <category term="Expanded" scheme="http://wst24365888.github.io/tags/Expanded/"/>
+    
       <category term="Overflow" scheme="http://wst24365888.github.io/tags/Overflow/"/>
     
       <category term="Row" scheme="http://wst24365888.github.io/tags/Row/"/>
     
-      <category term="Expanded" scheme="http://wst24365888.github.io/tags/Expanded/"/>
-    
       <category term="Flexible" scheme="http://wst24365888.github.io/tags/Flexible/"/>
-    
-      <category term="Column" scheme="http://wst24365888.github.io/tags/Column/"/>
-    
-      <category term="SingleChildScrollView" scheme="http://wst24365888.github.io/tags/SingleChildScrollView/"/>
     
   </entry>
   
@@ -318,11 +356,11 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
+      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
+    
       <category term="Visibility" scheme="http://wst24365888.github.io/tags/Visibility/"/>
     
       <category term="Hide" scheme="http://wst24365888.github.io/tags/Hide/"/>
-    
-      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
     
   </entry>
   
@@ -349,11 +387,11 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="Expanded" scheme="http://wst24365888.github.io/tags/Expanded/"/>
+      <category term="SingleChildScrollView" scheme="http://wst24365888.github.io/tags/SingleChildScrollView/"/>
     
       <category term="Column" scheme="http://wst24365888.github.io/tags/Column/"/>
     
-      <category term="SingleChildScrollView" scheme="http://wst24365888.github.io/tags/SingleChildScrollView/"/>
+      <category term="Expanded" scheme="http://wst24365888.github.io/tags/Expanded/"/>
     
   </entry>
   
@@ -436,9 +474,9 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
-    
       <category term="Card" scheme="http://wst24365888.github.io/tags/Card/"/>
+    
+      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
     
       <category term="GestureDetector" scheme="http://wst24365888.github.io/tags/GestureDetector/"/>
     
@@ -589,35 +627,6 @@
       <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
     
       <category term="Tags" scheme="http://wst24365888.github.io/tags/Tags/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo &amp; Google Search Console</title>
-    <link href="http://wst24365888.github.io/add-google-search-console/"/>
-    <id>http://wst24365888.github.io/add-google-search-console/</id>
-    <published>2019-06-28T12:33:53.000Z</published>
-    <updated>2019-06-28T15:42:38.835Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="申請-Google-Search-Console"><a href="#申請-Google-Search-Console" class="headerlink" title="申請 Google Search Console"></a>申請 Google Search Console</h2><ol><li>到<a href="https://search.google.com/search-console/welcome" target="_blank" rel="noopener">Google Search Console</a>中，選取右邊那個並貼上你的網站網址(記得先登入Google!)</li></ol><p><img src="044.png" alt></p><ol start="2"><li>下載它所提供的html檔，放到部落格根目錄下”public資料夾”中並發布</li></ol><p><img src="045.png" alt></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><ol start="3"><li>點下驗證，完成!</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;申請-Google-Search-Console&quot;&gt;&lt;a href=&quot;#申請-Google-Search-Console&quot; class=&quot;headerlink&quot; title=&quot;申請 Google Search Console&quot;&gt;&lt;/a&gt;申請 Google Sear
-      
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://wst24365888.github.io/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://wst24365888.github.io/tags/Hexo/"/>
-    
-      <category term="Google Search Console" scheme="http://wst24365888.github.io/tags/Google-Search-Console/"/>
-    
-      <category term="Google" scheme="http://wst24365888.github.io/tags/Google/"/>
     
   </entry>
   
