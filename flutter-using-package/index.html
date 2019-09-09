@@ -31,10 +31,10 @@ ga('send', 'pageview');
 <p>這裡有幾種寫法</p>
 <h3 id="無版本號"><a href="#無版本號" class="headerlink" title="無版本號"></a>無版本號</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">dependencies:</span></span><br><span class="line"><span class="attr">  provider:</span></span><br></pre></td></tr></table></figure>
 
-<p>我自己偏好這個方法，不過不推薦</p>
+<p>我自己偏好這個方法，不過<strong>不推薦</strong></p>
 <p>如果不加入版本號的話</p>
 <p>代表get package時永遠是拉最新版</p>
-<p>但無從查看插件的版本</p>
+<p>但無從查看插件的版本(我看有人說好像在更新時會顯示版本，但我測試是失敗的QQ)</p>
 <h3 id="版本號"><a href="#版本號" class="headerlink" title="^ + 版本號"></a>^ + 版本號</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">dependencies:</span></span><br><span class="line"><span class="attr">  provider:</span> <span class="string">^3.1.0</span></span><br></pre></td></tr></table></figure>
 
 <p>最常使用的方法</p>
@@ -42,17 +42,17 @@ ga('send', 'pageview');
 <p>但3.2.x則不適用</p>
 <h3 id="‘版本號’"><a href="#‘版本號’" class="headerlink" title="‘版本號’"></a>‘版本號’</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">dependencies:</span></span><br><span class="line"><span class="attr">  provider:</span> <span class="string">'3.1.0'</span></span><br></pre></td></tr></table></figure>
 
-<p>不推薦，這裡代表只有3.1.0這個版本適用</p>
+<p><strong>不推薦</strong>，這裡代表只有3.1.0這個版本適用</p>
 <h2 id="執行指令"><a href="#執行指令" class="headerlink" title="執行指令"></a>執行指令</h2><p>執行這段</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ flutter pub get</span><br></pre></td></tr></table></figure>
 
 <p>這裡會根據pubspec.yaml中dependencies寫的插件來更新</p>
 <p>新的會下載下來</p>
-<p>舊得如果版本適用則會更新</p>
+<p>舊的如果版本適用則會更新</p>
 <h3 id="在VS-Code中"><a href="#在VS-Code中" class="headerlink" title="在VS Code中"></a>在VS Code中</h3><p>在VS Code中存檔就會自動執行</p>
 <p>無須再輸入指令</p>
 <h2 id="在你的dart檔案中引入"><a href="#在你的dart檔案中引入" class="headerlink" title="在你的dart檔案中引入"></a>在你的dart檔案中引入</h2><p>除非有特殊需求只引入其中幾個庫</p>
-<p>不然一般都會直接引入該套件底下的”套件名稱.dart”</p>
+<p>不然一般都會直接引入該套件底下的”<strong>套件名稱.dart</strong>“</p>
 <figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">'package:provider/provider.dart'</span>;</span><br></pre></td></tr></table></figure>
 
 </div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:xyphuzwu@gmail.com">Xyphuz</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章鏈接: </span><span class="post-copyright-info"><a href="http://wst24365888.github.io/flutter-using-package/">http://wst24365888.github.io/flutter-using-package/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版權聲明: </span><span class="post-copyright-info">本部落格所有文章除特別聲明外，均採用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 許可協議。轉載請註明來自 <a href="http://wst24365888.github.io" target="_blank">Xyphuz's Notes</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Flutter/">Flutter    </a><a class="post-meta__tags" href="/tags/Package/">Package    </a><a class="post-meta__tags" href="/tags/Pub/">Pub    </a></div><div class="post_share"><div class="social-share" data-image="/images/flutter.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js"></script></div></div><nav class="pagination_post" id="pagination"><div class="prev-post pull-left"><a href="/flutter-using-font/"><img class="prev_cover lozad" data-src="/images/flutter.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="label">上一篇</div><div class="prev_info"><span>在Flutter中使用字體</span></div></a></div><div class="next-post pull-right"><a href="/xyphuz-scanner/"><img class="next_cover lozad" data-src="/images/xyphuz_scanner.png" onerror="onerror=null;src='/img/404.jpg'"><div class="label">下一篇</div><div class="next_info"><span>Just Scan Releases</span></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-thumbs-up" aria-hidden="true"></i><span> 相關推薦</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/flutter-target-of-uri-does-not-exist/" title="解決Flutter中Target of URI doesn't exist的問題"><img class="relatedPosts_cover lozad" data-src="/images/flutter.jpg"><div class="relatedPosts_title">解決Flutter中Target of URI doesn't exist的問題</div></a></div><div class="relatedPosts_item"><a href="/flutter-orientation/" title="在Flutter中固定方向"><img class="relatedPosts_cover lozad" data-src="/images/flutter.jpg"><div class="relatedPosts_title">在Flutter中固定方向</div></a></div><div class="relatedPosts_item"><a href="/flutter-hide-widget/" title="Flutter中隱藏某視窗"><img class="relatedPosts_cover lozad" data-src="/images/flutter.jpg"><div class="relatedPosts_title">Flutter中隱藏某視窗</div></a></div><div class="relatedPosts_item"><a href="/flutter-full-screen/" title="將Flutter App設置為全屏"><img class="relatedPosts_cover lozad" data-src="/images/flutter.jpg"><div class="relatedPosts_title">將Flutter App設置為全屏</div></a></div><div class="relatedPosts_item"><a href="/flutter-make-widget-clickable/" title="Flutter中使Widget變為可點擊"><img class="relatedPosts_cover lozad" data-src="/images/flutter.jpg"><div class="relatedPosts_title">Flutter中使Widget變為可點擊</div></a></div><div class="relatedPosts_item"><a href="/flutter-using-font/" title="在Flutter中使用字體"><img class="relatedPosts_cover lozad" data-src="/images/flutter.jpg"><div class="relatedPosts_title">在Flutter中使用字體</div></a></div></div><div class="clear_both"></div></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i> <span>評論</span></div><div id="disqus_thread"></div><script>var unused = null;
