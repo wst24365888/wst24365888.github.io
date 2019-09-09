@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wst24365888.github.io/hexo-site/</loc>
+    
+    <lastmod>2019-09-09T09:24:47.906Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wst24365888.github.io/flutter-using-font/</loc>
     
     <lastmod>2019-09-09T09:22:30.735Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>http://wst24365888.github.io/flutter-hide-widget/</loc>
     
     <lastmod>2019-09-09T06:18:30.620Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wst24365888.github.io/hexo-site/</loc>
-    
-    <lastmod>2019-09-06T09:06:25.000Z</lastmod>
     
   </url>
   
