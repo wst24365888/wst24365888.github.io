@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2019-10-21T12:45:00.730Z</updated>
+  <updated>2019-10-21T12:45:58.486Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://wst24365888.github.io/flutter-swipe-to-delete-list-item/"/>
     <id>http://wst24365888.github.io/flutter-swipe-to-delete-list-item/</id>
     <published>2019-10-21T12:29:56.000Z</published>
-    <updated>2019-10-21T12:45:00.730Z</updated>
+    <updated>2019-10-21T12:45:58.486Z</updated>
     
     <content type="html"><![CDATA[<p>最近開學有點忙阿…</p><p>只能慢慢更新一點小東西QAQ</p><h2 id="用Dismissible包住List-Item"><a href="#用Dismissible包住List-Item" class="headerlink" title="用Dismissible包住List Item"></a>用Dismissible包住List Item</h2><p>這裡使用Flutter原生的Dismissible</p><h3 id="加上key"><a href="#加上key" class="headerlink" title="加上key"></a>加上key</h3><p>每個被Dismissible包住的物件都要有一個獨特的Key，</p><p>以確保Flutter在更新畫面時的比較機制順利進行(之後應該會另外發篇文講)</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Dismissible(</span><br><span class="line">  key: Key(<span class="string">"YourKey"</span>),</span><br><span class="line">  child: YourListItem(),</span><br><span class="line">);</span><br></pre></td></tr></table></figure><h3 id="加上onDismissed"><a href="#加上onDismissed" class="headerlink" title="加上onDismissed"></a>加上onDismissed</h3><p>加上當被滑動時需要做的動作</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Dismissible(</span><br><span class="line">  key: Key(<span class="string">"YourKey"</span>),</span><br><span class="line">  onDismissed: (direction) &#123;</span><br><span class="line">      <span class="comment">// Do something...</span></span><br><span class="line">  &#125;,</span><br><span class="line">  child: YourListItem(),</span><br><span class="line">);</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -45,7 +45,7 @@
     
       <category term="Key" scheme="http://wst24365888.github.io/tags/Key/"/>
     
-      <category term="Dismiss" scheme="http://wst24365888.github.io/tags/Dismiss/"/>
+      <category term="Dismissible" scheme="http://wst24365888.github.io/tags/Dismissible/"/>
     
   </entry>
   
