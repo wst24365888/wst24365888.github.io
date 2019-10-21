@@ -132,6 +132,10 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
+      <category term="App" scheme="http://wst24365888.github.io/tags/App/"/>
+    
+      <category term="Release" scheme="http://wst24365888.github.io/tags/Release/"/>
+    
       <category term="Just Scan" scheme="http://wst24365888.github.io/tags/Just-Scan/"/>
     
       <category term="QR" scheme="http://wst24365888.github.io/tags/QR/"/>
@@ -139,10 +143,6 @@
       <category term="QR Code" scheme="http://wst24365888.github.io/tags/QR-Code/"/>
     
       <category term="Barcode" scheme="http://wst24365888.github.io/tags/Barcode/"/>
-    
-      <category term="App" scheme="http://wst24365888.github.io/tags/App/"/>
-    
-      <category term="Release" scheme="http://wst24365888.github.io/tags/Release/"/>
     
   </entry>
   
@@ -171,13 +171,13 @@
     
       <category term="Dart" scheme="http://wst24365888.github.io/tags/Dart/"/>
     
-      <category term="Mixin" scheme="http://wst24365888.github.io/tags/Mixin/"/>
-    
       <category term="Extends" scheme="http://wst24365888.github.io/tags/Extends/"/>
     
-      <category term="With" scheme="http://wst24365888.github.io/tags/With/"/>
-    
       <category term="Abstract" scheme="http://wst24365888.github.io/tags/Abstract/"/>
+    
+      <category term="Mixin" scheme="http://wst24365888.github.io/tags/Mixin/"/>
+    
+      <category term="With" scheme="http://wst24365888.github.io/tags/With/"/>
     
   </entry>
   
@@ -207,9 +207,9 @@
     
       <category term="Extends" scheme="http://wst24365888.github.io/tags/Extends/"/>
     
-      <category term="Abstract" scheme="http://wst24365888.github.io/tags/Abstract/"/>
-    
       <category term="Implements" scheme="http://wst24365888.github.io/tags/Implements/"/>
+    
+      <category term="Abstract" scheme="http://wst24365888.github.io/tags/Abstract/"/>
     
   </entry>
   
@@ -263,11 +263,11 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
+      <category term="Xoops" scheme="http://wst24365888.github.io/tags/Xoops/"/>
+    
       <category term="App" scheme="http://wst24365888.github.io/tags/App/"/>
     
       <category term="Release" scheme="http://wst24365888.github.io/tags/Release/"/>
-    
-      <category term="Xoops" scheme="http://wst24365888.github.io/tags/Xoops/"/>
     
   </entry>
   
@@ -447,11 +447,11 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
-    
       <category term="Visibility" scheme="http://wst24365888.github.io/tags/Visibility/"/>
     
       <category term="Hide" scheme="http://wst24365888.github.io/tags/Hide/"/>
+    
+      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
     
   </entry>
   
@@ -565,9 +565,9 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="Card" scheme="http://wst24365888.github.io/tags/Card/"/>
-    
       <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
+    
+      <category term="Card" scheme="http://wst24365888.github.io/tags/Card/"/>
     
       <category term="GestureDetector" scheme="http://wst24365888.github.io/tags/GestureDetector/"/>
     
