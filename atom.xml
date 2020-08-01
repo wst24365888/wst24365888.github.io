@@ -461,11 +461,11 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
+      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
+    
       <category term="Visibility" scheme="http://wst24365888.github.io/tags/Visibility/"/>
     
       <category term="Hide" scheme="http://wst24365888.github.io/tags/Hide/"/>
-    
-      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
     
   </entry>
   
@@ -583,9 +583,9 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
-    
       <category term="Card" scheme="http://wst24365888.github.io/tags/Card/"/>
+    
+      <category term="Widget" scheme="http://wst24365888.github.io/tags/Widget/"/>
     
       <category term="GestureDetector" scheme="http://wst24365888.github.io/tags/GestureDetector/"/>
     
