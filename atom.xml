@@ -176,13 +176,13 @@
     
       <category term="Dart" scheme="http://wst24365888.github.io/tags/Dart/"/>
     
-      <category term="Mixin" scheme="http://wst24365888.github.io/tags/Mixin/"/>
-    
       <category term="Extends" scheme="http://wst24365888.github.io/tags/Extends/"/>
     
-      <category term="With" scheme="http://wst24365888.github.io/tags/With/"/>
-    
       <category term="Abstract" scheme="http://wst24365888.github.io/tags/Abstract/"/>
+    
+      <category term="Mixin" scheme="http://wst24365888.github.io/tags/Mixin/"/>
+    
+      <category term="With" scheme="http://wst24365888.github.io/tags/With/"/>
     
   </entry>
   
@@ -213,9 +213,9 @@
     
       <category term="Extends" scheme="http://wst24365888.github.io/tags/Extends/"/>
     
-      <category term="Abstract" scheme="http://wst24365888.github.io/tags/Abstract/"/>
-    
       <category term="Implements" scheme="http://wst24365888.github.io/tags/Implements/"/>
+    
+      <category term="Abstract" scheme="http://wst24365888.github.io/tags/Abstract/"/>
     
   </entry>
   
