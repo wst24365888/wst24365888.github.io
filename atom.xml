@@ -369,9 +369,9 @@
     
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
-      <category term="SystemChrome" scheme="http://wst24365888.github.io/tags/SystemChrome/"/>
-    
       <category term="Orientation" scheme="http://wst24365888.github.io/tags/Orientation/"/>
+    
+      <category term="SystemChrome" scheme="http://wst24365888.github.io/tags/SystemChrome/"/>
     
   </entry>
   
