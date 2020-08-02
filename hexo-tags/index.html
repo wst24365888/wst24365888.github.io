@@ -109,24 +109,24 @@ gtag('config', 'UA-143008025-1');
 <h2 id="How-to-solve"><a href="#How-to-solve" class="headerlink" title="How to solve?"></a>How to solve?</h2><h3 id="已成功"><a href="#已成功" class="headerlink" title="已成功"></a>已成功</h3><ol>
 <li>首先把所有文章的tags註解起來</li>
 </ol>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">#tags: [Hexo, Tags]</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-section">#tags: [Hexo, Tags]</span><br></code></pre></td></tr></table></figure>
 
 <ol start="2">
 <li>刪除靜態檔案，然後重新建立靜態檔案並發布</li>
 </ol>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean<br>hexo g -d<br></code></pre></td></tr></table></figure>
 
 <ol start="3">
 <li>再來把所有文章的tags註解去掉</li>
 </ol>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tags: [Hexo, Tags]</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs markdown">tags: [Hexo, Tags]<br></code></pre></td></tr></table></figure>
 
 <ol start="4">
 <li>最後建立靜態檔案並發布</li>
 </ol>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo g -d<br></code></pre></td></tr></table></figure>
 
-<h3 id="猜測"><a href="#猜測" class="headerlink" title="猜測"></a>猜測</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo d</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+<h3 id="猜測"><a href="#猜測" class="headerlink" title="猜測"></a>猜測</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean<br>hexo d<br>hexo g -d<br></code></pre></td></tr></table></figure>
 
 <p>會不會其實這樣就可以了呢@@</p>
 <p>或許根本不用動到註解(還要一個一個文章慢慢動，有夠慢)</p>

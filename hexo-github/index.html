@@ -108,10 +108,10 @@ gtag('config', 'UA-143008025-1');
 <p>這是固定寫法</p>
 <h2 id="安裝Git"><a href="#安裝Git" class="headerlink" title="安裝Git"></a>安裝Git</h2><p>如果你還沒安裝Git，到<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">這裡</a>安裝</p>
 <h2 id="綁定Github"><a href="#綁定Github" class="headerlink" title="綁定Github"></a>綁定Github</h2><p>輸入指令</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的Github用戶名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;你註冊GitHub的電子信箱&quot;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;你的Github用戶名&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;你註冊GitHub的電子信箱&quot;</span><br></code></pre></td></tr></table></figure>
 
 <h2 id="生成密鑰"><a href="#生成密鑰" class="headerlink" title="生成密鑰"></a>生成密鑰</h2><p>輸入指令，接下來都按Enter就好</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;你註冊GitHub的電子信箱&quot;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">ssh-keygen -t rsa -C <span class="hljs-string">&quot;你註冊GitHub的電子信箱&quot;</span><br></code></pre></td></tr></table></figure>
 
 <p>這裡會生成一個名為 <code>id_rsa.pub</code> 的SSH密鑰文件</p>
 <p>主要使用非對稱加密來驗證你是否為合法用戶</p>
@@ -125,16 +125,16 @@ gtag('config', 'UA-143008025-1');
 <p>Key的欄位則貼上剛剛複製的東西</p>
 <p>然後愉快的送出~</p>
 <h3 id="檢查"><a href="#檢查" class="headerlink" title="檢查"></a>檢查</h3><p>輸入指令後，可以檢查GitHub那邊公鑰是否設置成功</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh git@github.com</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">ssh git@github.com<br></code></pre></td></tr></table></figure>
 
 <p>印象中只要看到什麼 <code>successfully authenticated</code> 就代表你成功了</p>
-<h2 id="安裝Hexo的Git部屬套件"><a href="#安裝Hexo的Git部屬套件" class="headerlink" title="安裝Hexo的Git部屬套件"></a>安裝Hexo的Git部屬套件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git</span><br></pre></td></tr></table></figure>
+<h2 id="安裝Hexo的Git部屬套件"><a href="#安裝Hexo的Git部屬套件" class="headerlink" title="安裝Hexo的Git部屬套件"></a>安裝Hexo的Git部屬套件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm install hexo-deployer-git<br></code></pre></td></tr></table></figure>
 
 <h2 id="修改配置"><a href="#修改配置" class="headerlink" title="修改配置"></a>修改配置</h2><p>到部落格<strong>根目錄</strong>下的 <code>_config.yml</code> 文件，並修改為下述的樣子</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span> </span><br><span class="line">    <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="attr">repo:</span> <span class="string">https://github.com/你的Github用戶名/你的Github用戶名.github.io</span>    <span class="comment">#簡單來說就是你的倉庫網址</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">deploy:</span> <br>    <span class="hljs-attr">type:</span> <span class="hljs-string">git</span><br>    <span class="hljs-attr">repo:</span> <span class="hljs-string">https://github.com/你的Github用戶名/你的Github用戶名.github.io</span>    <span class="hljs-comment">#簡單來說就是你的倉庫網址</span><br>    <span class="hljs-attr">branch:</span> <span class="hljs-string">master</span><br></code></pre></td></tr></table></figure>
 
 <h2 id="建立靜態檔案並發布"><a href="#建立靜態檔案並發布" class="headerlink" title="建立靜態檔案並發布"></a>建立靜態檔案並發布</h2><p>是的，最重要的發布XD</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo g -d<br></code></pre></td></tr></table></figure>
 
 <h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h2><p>接著就能到 https://你的Github用戶名.github.io 看到你的成果啦~</p>
 <p>至於更進一步想要綁定域名的話</p>
