@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-TW" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Xyphuz's Notes - Home</title><meta name="description" content="這裡記錄了我在Coding之路遇到的種種困難，如果你也遭遇了相同經歷，歡迎點進來參考參考~"><meta name="keywords" content="xyphuz,xyphuz note,xyphuz notes,xyphuz's,xyphuz's note,xyphuz's notes"><meta name="author" content="Xyphuz,xyphuzwu@gmail.com"><meta name="copyright" content="Xyphuz"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="canonical" href="http://wst24365888.github.io/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin="crossorigin"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="website"><meta property="og:title" content="Xyphuz's Notes"><meta property="og:url" content="http://wst24365888.github.io/"><meta property="og:site_name" content="Xyphuz's Notes"><meta property="og:description" content="這裡記錄了我在Coding之路遇到的種種困難，如果你也遭遇了相同經歷，歡迎點進來參考參考~"><meta property="og:image" content="http://wst24365888.github.io/img/avatar.jpg"><meta property="article:published_time" content="2020-08-02T10:09:44.080Z"><meta property="article:modified_time" content="2020-08-02T10:09:44.080Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+<!DOCTYPE html><html lang="zh-TW" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Xyphuz's Notes - Home</title><meta name="description" content="這裡記錄了我在Coding之路遇到的種種困難，如果你也遭遇了相同經歷，歡迎點進來參考參考~"><meta name="keywords" content="xyphuz,xyphuz note,xyphuz notes,xyphuz's,xyphuz's note,xyphuz's notes"><meta name="author" content="Xyphuz,xyphuzwu@gmail.com"><meta name="copyright" content="Xyphuz"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="canonical" href="http://wst24365888.github.io/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin="crossorigin"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="website"><meta property="og:title" content="Xyphuz's Notes"><meta property="og:url" content="http://wst24365888.github.io/"><meta property="og:site_name" content="Xyphuz's Notes"><meta property="og:description" content="這裡記錄了我在Coding之路遇到的種種困難，如果你也遭遇了相同經歷，歡迎點進來參考參考~"><meta property="og:image" content="http://wst24365888.github.io/img/avatar.jpg"><meta property="article:published_time" content="2020-08-02T10:30:14.802Z"><meta property="article:modified_time" content="2020-08-02T10:30:14.802Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
   document.documentElement.setAttribute('data-theme', 'dark')
   if (document.querySelector('meta[name="theme-color"]') !== null) {
     document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
@@ -93,7 +93,7 @@ gtag('config', 'UA-143008025-1');
   isHome: true,
   isHighlightShrink: false,
   isSidebar: false,
-  postUpdate: '2020-08-02 18:09:44'
+  postUpdate: '2020-08-02 18:30:14'
 }</script><noscript><style>
 #nav {
   opacity: 1
@@ -107,10 +107,19 @@ gtag('config', 'UA-143008025-1');
 用Dismissible包住List Item這裡使用Flutter原生的Dismissible
 加上key每個被Dismissible包住的物件都要有一個獨特的Key，
 以確保Flutter在更新畫面時的比較機制順利進行(之後應該會另外發篇文講)
-1234Dismissible(  key: Key(&quot;YourKey&quot;),  child: YourListItem(),);
+Dismissible(
+  key: Key("YourKey"),
+  child: YourListItem(),
+);
 
 加上onDismissed加上當被滑動時需要做的動作
-1234567Dismissible(  key: Key(&quot;YourKey&quot;),  onDismissed: (direction) &#123;      // Do something...  &#125;,  child: YourListItem(),);
+Dismissible(
+  key: Key("YourKey"),
+  onDismissed: (direction) &#123;
+      // Do something...
+  &#125;,
+  child: YourListItem(),
+);
 </div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/flutter-using-font/" title="在Flutter中使用字體">     <img class="post_bg" data-lazy-src="/images/flutter.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="在Flutter中使用字體"></a></div><div class="recent-post-info"><a class="article-title" href="/flutter-using-font/" title="在Flutter中使用字體">在Flutter中使用字體</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2019-09-09T09:06:24.000Z" title="發表於 2019-09-09 17:06:24">2019-09-09</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Flutter/">Flutter</a></span></div><div class="content">找到你要的字體到Google Fonts 官網尋找你要的字體
 下載該字體的安裝包並解壓縮
 觀察檔名這裡拿來示範的是Quicksand這個字體
@@ -123,33 +132,47 @@ ex. Quicksand-Bold.ttf
 並把剛剛解壓縮裡面的字體檔放進fonts內
 修改pubspec.yaml把剛剛放進來的所有字體檔都加到pubspec.yaml中flutter底下的的fonts
 ex.
-12345678910111213flutter:  # ...  fonts:  - family: Quicksand   #這裡填字體家族名稱    fonts:    - asset: fonts/Quicksand-Bold.ttf    - asset: fonts/Quicksand-Light.ttf    - asset: fonts/Quicksand-Medium.ttf    - asset: fonts/Quicksand-R ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/flutter-using-package/" title="在Flutter中使用插件(Package)">     <img class="post_bg" data-lazy-src="/images/flutter.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="在Flutter中使用插件(Package)"></a></div><div class="recent-post-info"><a class="article-title" href="/flutter-using-package/" title="在Flutter中使用插件(Package)">在Flutter中使用插件(Package)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2019-09-09T06:41:31.000Z" title="發表於 2019-09-09 14:41:31">2019-09-09</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Flutter/">Flutter</a></span></div><div class="content">最近來補點比較基本且常用的東西好了XD
+flutter:
+
+  # ...
+
+  fonts:
+  - family: Quicksand   #這裡填字體家族名稱
+    fonts:
+    - asset: fonts/Quicksand-Bold.ttf
+    - asset: fonts/Quicksand-Light.ttf
+    - asset: fonts/Quicksand-Medium.ttf
+    - asset: fonts/Quicksand-Regular. ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/flutter-using-package/" title="在Flutter中使用插件(Package)">     <img class="post_bg" data-lazy-src="/images/flutter.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="在Flutter中使用插件(Package)"></a></div><div class="recent-post-info"><a class="article-title" href="/flutter-using-package/" title="在Flutter中使用插件(Package)">在Flutter中使用插件(Package)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2019-09-09T06:41:31.000Z" title="發表於 2019-09-09 14:41:31">2019-09-09</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Flutter/">Flutter</a></span></div><div class="content">最近來補點比較基本且常用的東西好了XD
 找到你要的插件我這裡使用的範例是provider
 
 修改pubspec.yaml在pubspec.yaml加入你剛剛找到的插件名稱
 這裡有幾種寫法
-無版本號12dependencies:  provider:
+無版本號dependencies:
+  provider:
 
 我自己偏好這個方法，不過不推薦
 如果不加入版本號的話
 代表get package時永遠是拉最新版
 但無從查看插件的版本(我看有人說好像在更新時會顯示版本，但我測試是失敗的QQ)
-^ + 版本號12dependencies:  provider: ^3.1.0
+^ + 版本號dependencies:
+  provider: ^3.1.0
 
 最常使用的方法
 在get package時任何3.1.x, x&gt;=0皆適用
 但3.2.x則不適用
-‘版本號’12dependencies:  provider: &#x27;3.1.0&#x27;
+‘版本號’dependencies:
+  provider: '3.1.0'
 
 不推薦，這裡代表只有3.1.0這個版本適用
 執行指令執行這段
-1flutter pub get
+flutter pub get
 
 這裡會根據pubspec.yaml中dependencies寫的插件來更新
 新的會下載下來
 舊的如果版本適用則會更新
 在VS Code中在VS Code中存檔就會自動執行
-無須再輸入 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/xyphuz-scanner/" title="Just Scan Releases">     <img class="post_bg" data-lazy-src="/images/xyphuz_scanner.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Just Scan Releases"></a></div><div class="recent-post-info"><a class="article-title" href="/xyphuz-scanner/" title="Just Scan Releases">Just Scan Releases</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2019-09-06T08:28:10.000Z" title="發表於 2019-09-06 16:28:10">2019-09-06</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Release/">Release</a></span></div><div class="content">最新版本
+無須再輸入指令
+在你的dart檔案中引 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/xyphuz-scanner/" title="Just Scan Releases">     <img class="post_bg" data-lazy-src="/images/xyphuz_scanner.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Just Scan Releases"></a></div><div class="recent-post-info"><a class="article-title" href="/xyphuz-scanner/" title="Just Scan Releases">Just Scan Releases</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2019-09-06T08:28:10.000Z" title="發表於 2019-09-06 16:28:10">2019-09-06</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Release/">Release</a></span></div><div class="content">最新版本
 直接下載最新版本 v1.0.0 (2019/09/06 釋出)
 
 從Play商店安裝 (因為須審核，所以版本更新上可能較慢)
@@ -219,7 +242,28 @@ Mixin並非多重繼承(Multiple Inheritance)，也不是接口(Interface)，不
 Java v.s. D ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/dart-extends-and-implements/" title="淺談Dart中的Extends與Implements">     <img class="post_bg" data-lazy-src="/images/dart.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="淺談Dart中的Extends與Implements"></a></div><div class="recent-post-info"><a class="article-title" href="/dart-extends-and-implements/" title="淺談Dart中的Extends與Implements">淺談Dart中的Extends與Implements</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2019-08-11T10:02:16.000Z" title="發表於 2019-08-11 18:02:16">2019-08-11</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Dart/">Dart</a></span></div><div class="content">Extends簡單來說就是繼承一個類別~
 在Dart中，extends後面只能放一個類別
 看個例子
-12345678910111213141516171819202122232425262728293031abstract class Vehicle &#123;  // 宣告屬性brand  String brand;    // 定義方法makeSomeNoise()  void makeSomeNoise();&#125;class Car extends Vehicle &#123;  // 繼承了尚未初始化的brand和尚未實作的方法makeSomeNoise()  // 方法必須先實作，屬性則不一定要動(不過我習慣會上個空字串&quot;&quot;)  @override  void makeSomeNoise() &#123;    print(&quot;WOOOOO&quot;);  &#125;&#125;class SportsCar extends Car &#123;  // 繼承了尚未初始化的brand和已實作的方法makeSomeNoise()  //  ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/privacy/" title="隱私權條款">     <img class="post_bg" data-lazy-src="/images/privacy.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="隱私權條款"></a></div><div class="recent-post-info"><a class="article-title" href="/privacy/" title="隱私權條款">隱私權條款</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2019-07-24T11:38:55.000Z" title="發表於 2019-07-24 19:38:55">2019-07-24</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Privacy/">Privacy</a></span></div><div class="content">非常歡迎您使用本應用，為了讓您能夠安心的使用各項服務與資訊，特此向您說明我們的隱私權保護政策，以保障您的權益，請您詳閱下列內容：
+abstract class Vehicle &#123;
+  // 宣告屬性brand
+  String brand;
+
+  // 定義方法makeSomeNoise()
+  void makeSomeNoise();
+&#125;
+
+class Car extends Vehicle &#123;
+  // 繼承了尚未初始化的brand和尚未實作的方法makeSomeNoise()
+  // 方法必須先實作，屬性則不一定要動(不過我習慣會上個空字串"")
+  @override
+  void makeSomeNoise() &#123;
+    print("WOOOOO");
+  &#125;
+&#125;
+
+class SportsCar extends Car &#123;
+  // 繼承了尚未初始化的brand和已實作的方法makeSomeNoise()
+  // 初始化brand
+  String brand = "Benzzz";
+  // 當然這邊也可以覆寫makeSo ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/privacy/" title="隱私權條款">     <img class="post_bg" data-lazy-src="/images/privacy.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="隱私權條款"></a></div><div class="recent-post-info"><a class="article-title" href="/privacy/" title="隱私權條款">隱私權條款</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2019-07-24T11:38:55.000Z" title="發表於 2019-07-24 19:38:55">2019-07-24</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Privacy/">Privacy</a></span></div><div class="content">非常歡迎您使用本應用，為了讓您能夠安心的使用各項服務與資訊，特此向您說明我們的隱私權保護政策，以保障您的權益，請您詳閱下列內容：
 隱私權保護政策的適用範圍隱私權保護政策內容，包括本應用如何處理在您使用服務時收集到的個人識別資料。
 隱私權保護政策不適用於本應用以外的相關連結應用，也不適用於非本應用所委託或參與管理的人員。
 個人資料的蒐集、處理及利用方式當您使用本應用所提供之功能服務時，我們將視該服務功能性質，請您提供必要的個人資料，並在該特定目的範圍內處理及利用您的個人資料。
@@ -270,14 +314,34 @@ v1.1.2 (2019/08/06 釋出)
 
 前往下載v1.1.2
 </div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/flutter-row-column-overflow/" title="解決Flutter中Row與Column之Overflow的問題">     <img class="post_bg" data-lazy-src="/images/flutter.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="解決Flutter中Row與Column之Overflow的問題"></a></div><div class="recent-post-info"><a class="article-title" href="/flutter-row-column-overflow/" title="解決Flutter中Row與Column之Overflow的問題">解決Flutter中Row與Column之Overflow的問題</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2019-07-17T06:46:52.000Z" title="發表於 2019-07-17 14:46:52">2019-07-17</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Flutter/">Flutter</a></span></div><div class="content">防止Row中的東西Overflow這裡使用Expanded或Flexible都可以
-1234567child: Row(  children: &lt;Widget&gt;[    Expanded(      child: Text(...),    )  ],),
+child: Row(
+  children: &lt;Widget>[
+    Expanded(
+      child: Text(...),
+    )
+  ],
+),
 
 防止Column中的東西Overflow這裡使用SingleChildScrollView
-123456789child: SingleChildScrollView(  child: Column(    children: &lt;Widget&gt;[      SomeWidget(),      SomeWidget(),      SomeWidget(),    ],  ),),
-</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/flutter-full-screen/" title="將Flutter App設置為全屏">     <img class="post_bg" data-lazy-src="/images/flutter.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="將Flutter App設置為全屏"></a></div><div class="recent-post-info"><a class="article-title" href="/flutter-full-screen/" title="將Flutter App設置為全屏">將Flutter App設置為全屏</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2019-07-17T04:34:15.000Z" title="發表於 2019-07-17 12:34:15">2019-07-17</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Flutter/">Flutter</a></span></div><div class="content">用SystemChrome引入services.dart1import &#x27;package:flutter/services.dart&#x27;;
+child: SingleChildScrollView(
+  child: Column(
+    children: &lt;Widget>[
+      SomeWidget(),
+      SomeWidget(),
+      SomeWidget(),
+    ],
+  ),
+),
+</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/flutter-full-screen/" title="將Flutter App設置為全屏">     <img class="post_bg" data-lazy-src="/images/flutter.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="將Flutter App設置為全屏"></a></div><div class="recent-post-info"><a class="article-title" href="/flutter-full-screen/" title="將Flutter App設置為全屏">將Flutter App設置為全屏</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">發表於</span><time datetime="2019-07-17T04:34:15.000Z" title="發表於 2019-07-17 12:34:15">2019-07-17</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Flutter/">Flutter</a></span></div><div class="content">用SystemChrome引入services.dartimport 'package:flutter/services.dart';
 
 修改整個app在 main() 函數中加入
-1234567void main() &#123;  SystemChrome.setEnabledSystemUIOverlays([]);  runApp(YourApp());&#125;
+void main() &#123;
+
+  SystemChrome.setEnabledSystemUIOverlays([]);
+
+  runApp(YourApp());
+
+&#125;
 </div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" data-lazy-src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Xyphuz</div><div class="author-info__description">這裡記錄了我在Coding之路遇到的種種困難，如果你也遭遇了相同經歷，歡迎點進來參考參考~</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">文章</div><div class="length_num">26</div></a></div><div class="card-info-data-item is-center">      <a href="/tags"><div class="headline">標籤</div><div class="length_num">51</div></a></div><div class="card-info-data-item is-center"><a href="/categories"><div class="headline">分類</div><div class="length_num">5</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/wst24365888/"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/wst24365888" target="_blank" title=""><i class="fab fa-github"></i></a><a class="social-icon" href="https://www.facebook.com/xinhanwu0715" target="_blank" title=""><i class="fab fa-facebook"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title=""><i class="fa fa-rss"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">通常學期中會比較忙，就等寒暑假有空再來更新摟~</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-recent-item"><div class="aside-recent-post"><a class="aside-post-cover" href="/flutter-swipe-to-delete-list-item/" title="Flutter中滑動以刪除列表物件"><img class="aside-post-bg" data-lazy-src="/images/flutter.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Flutter中滑動以刪除列表物件"/></a><div class="aside-post-info"><a class="aside-post-title" href="/flutter-swipe-to-delete-list-item/" title="Flutter中滑動以刪除列表物件">Flutter中滑動以刪除列表物件</a><time class="aside-post_meta post-meta-date" datetime="2019-10-21T12:29:56.000Z" title="發表於 2019-10-21 20:29:56">2019-10-21</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/flutter-using-font/" title="在Flutter中使用字體"><img class="aside-post-bg" data-lazy-src="/images/flutter.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="在Flutter中使用字體"/></a><div class="aside-post-info"><a class="aside-post-title" href="/flutter-using-font/" title="在Flutter中使用字體">在Flutter中使用字體</a><time class="aside-post_meta post-meta-date" datetime="2019-09-09T09:06:24.000Z" title="發表於 2019-09-09 17:06:24">2019-09-09</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/flutter-using-package/" title="在Flutter中使用插件(Package)"><img class="aside-post-bg" data-lazy-src="/images/flutter.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="在Flutter中使用插件(Package)"/></a><div class="aside-post-info"><a class="aside-post-title" href="/flutter-using-package/" title="在Flutter中使用插件(Package)">在Flutter中使用插件(Package)</a><time class="aside-post_meta post-meta-date" datetime="2019-09-09T06:41:31.000Z" title="發表於 2019-09-09 14:41:31">2019-09-09</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/xyphuz-scanner/" title="Just Scan Releases"><img class="aside-post-bg" data-lazy-src="/images/xyphuz_scanner.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Just Scan Releases"/></a><div class="aside-post-info"><a class="aside-post-title" href="/xyphuz-scanner/" title="Just Scan Releases">Just Scan Releases</a><time class="aside-post_meta post-meta-date" datetime="2019-09-06T08:28:10.000Z" title="發表於 2019-09-06 16:28:10">2019-09-06</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/dart-mixin/" title="淺談Dart中的Mixin"><img class="aside-post-bg" data-lazy-src="/images/dart.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="淺談Dart中的Mixin"/></a><div class="aside-post-info"><a class="aside-post-title" href="/dart-mixin/" title="淺談Dart中的Mixin">淺談Dart中的Mixin</a><time class="aside-post_meta post-meta-date" datetime="2019-08-11T10:04:22.000Z" title="發表於 2019-08-11 18:04:22">2019-08-11</time></div></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分類</span></div><ul class="card-category-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Dart/"><span class="card-category-list-name">Dart</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Flutter/"><span class="card-category-list-name">Flutter</span><span class="card-category-list-count">13</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Hexo/"><span class="card-category-list-name">Hexo</span><span class="card-category-list-count">8</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Privacy/"><span class="card-category-list-name">Privacy</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Release/"><span class="card-category-list-name">Release</span><span class="card-category-list-count">2</span></a></li>
                        
