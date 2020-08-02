@@ -346,7 +346,7 @@ table {
   empty-cells: show;
 }
 table thead {
-  background: rgba(153,169,191,0.1);
+  background: rgba(244,199,167,0.1);
 }
 table th,
 table td {
@@ -355,7 +355,7 @@ table td {
   vertical-align: middle;
 }
 *::selection {
-  background: #79c5e7;
+  background: #ac7447;
   color: #f7f7f7;
 }
 button {
@@ -1697,7 +1697,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 figure.highlight table::-webkit-scrollbar-thumb {
-  background: #dce4eb;
+  background: #1a2226;
 }
 figure.highlight pre .deletion {
   color: #bf42bf;
@@ -1706,10 +1706,10 @@ figure.highlight pre .addition {
   color: #105ede;
 }
 figure.highlight pre .meta {
-  color: #7c4dff;
+  color: #c792ea;
 }
 figure.highlight pre .comment {
-  color: rgba(149,165,166,0.8);
+  color: #546e7a;
 }
 figure.highlight pre .variable,
 figure.highlight pre .attribute,
@@ -1723,10 +1723,10 @@ figure.highlight pre .css .id,
 figure.highlight pre .tag .name,
 figure.highlight pre .css .class,
 figure.highlight pre .css .pseudo {
-  color: #e53935;
+  color: #ff5370;
 }
 figure.highlight pre .tag {
-  color: #39adb5;
+  color: #89ddff;
 }
 figure.highlight pre .number,
 figure.highlight pre .preprocessor,
@@ -1734,10 +1734,10 @@ figure.highlight pre .literal,
 figure.highlight pre .params,
 figure.highlight pre .constant,
 figure.highlight pre .command {
-  color: #f76d47;
+  color: #f78c6c;
 }
 figure.highlight pre .built_in {
-  color: #ffb62c;
+  color: #ffcb6b;
 }
 figure.highlight pre .ruby .class .title,
 figure.highlight pre .css .rules .attribute,
@@ -1750,12 +1750,12 @@ figure.highlight pre .xml .cdata,
 figure.highlight pre .special,
 figure.highlight pre .number,
 figure.highlight pre .formula {
-  color: #91b859;
+  color: #c3e88d;
 }
 figure.highlight pre .keyword,
 figure.highlight pre .title,
 figure.highlight pre .css .hexcolor {
-  color: #39adb5;
+  color: #89ddff;
 }
 figure.highlight pre .function,
 figure.highlight pre .python .decorator,
@@ -1765,19 +1765,19 @@ figure.highlight pre .ruby .title .keyword,
 figure.highlight pre .perl .sub,
 figure.highlight pre .javascript .title,
 figure.highlight pre .coffeescript .title {
-  color: #6182b8;
+  color: #82aaff;
 }
 figure.highlight pre .tag .attr,
 figure.highlight pre .javascript .function {
-  color: #7c4dff;
+  color: #c792ea;
 }
 #article-container pre,
 #article-container figure.highlight {
   overflow: auto;
   margin: 0 0 1rem;
   padding: 0;
-  background: #f6f8fa;
-  color: #90a4ae;
+  background: #263238;
+  color: #eff;
   line-height: 1.6;
 }
 blockquote {
@@ -1808,7 +1808,7 @@ blockquote footer cite:before {
 #article-container code {
   padding: 0.1rem 0.2rem;
   background: rgba(27,31,35,0.05);
-  color: #f47466;
+  color: #f2dcc5;
   word-wrap: break-word;
   word-break: break-word;
   overflow-wrap: break-word;
@@ -1819,7 +1819,7 @@ blockquote footer cite:before {
 #article-container pre code {
   padding: 0;
   background: none;
-  color: #90a4ae;
+  color: #eff;
   text-shadow: none;
 }
 #article-container figure.highlight {
@@ -1831,7 +1831,7 @@ blockquote footer cite:before {
   border: none;
 }
 #article-container figure.highlight .line.marked {
-  background-color: rgba(128,203,196,0.251);
+  background-color: rgba(128,203,196,0.125);
 }
 #article-container figure.highlight table {
   display: block;
@@ -1859,16 +1859,16 @@ blockquote footer cite:before {
 #article-container figure.highlight figcaption a {
   float: right;
   padding-right: 10px;
-  color: #90a4ae;
+  color: #eff;
 }
 #article-container figure.highlight figcaption a:hover {
-  border-bottom-color: #90a4ae;
+  border-bottom-color: #eff;
 }
 #article-container figure.highlight .gutter pre {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  background-color: #f6f8fa;
-  color: rgba(144,164,174,0.5);
+  background-color: #263238;
+  color: rgba(238,255,255,0.5);
   text-align: right;
 }
 #article-container figure.highlight .code pre {
@@ -1881,8 +1881,8 @@ blockquote footer cite:before {
   overflow: hidden;
   width: 100%;
   height: 1.5rem;
-  background: #e6ebf1;
-  color: #90a4ae;
+  background: #222d32;
+  color: rgba(238,255,255,0.8);
   font-size: 14px;
 }
 #article-container figure.highlight .highlight-tools.closed + table {
@@ -2103,7 +2103,7 @@ blockquote footer cite:before {
 }
 #aside_content .card-recent-post .aside-recent-item > .aside-recent-post .aside-post-info .aside-post_meta {
   padding-left: 10px;
-  color: #f4c7a7;
+  color: #f2dcc5;
   font-size: 0.6rem;
 }
 #aside_content .card-recent-post .aside-recent-item > .aside-recent-post .aside-post-info .aside-post-title {
@@ -3083,7 +3083,7 @@ _:future,
   color: #ac7447;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
-  color: #f4c7a7;
+  color: #f2dcc5;
   font-size: 90%;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .post-meta-date {
@@ -3108,7 +3108,7 @@ _:future,
   margin: 0 0.2rem;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a {
-  color: #f4c7a7;
+  color: #f2dcc5;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a:hover {
   color: #ac7447;
@@ -3275,7 +3275,7 @@ _:future,
   border-color: #f2dcc5;
 }
 .article-sort-item-time {
-  color: #f4c7a7;
+  color: #f2dcc5;
   font-size: 0.9em;
 }
 .article-sort-item-time time {
@@ -3345,7 +3345,7 @@ _:future,
 }
 .category-list .category-list-count {
   margin-left: 0.4rem;
-  color: #f4c7a7;
+  color: #f2dcc5;
 }
 .category-list .category-list-count:before {
   content: '(';
@@ -3539,7 +3539,7 @@ _:future,
   padding-left: 0.3rem;
 }
 a {
-  color: #99a9bf;
+  color: #f4c7a7;
   text-decoration: none;
   word-wrap: break-word;
   -webkit-transition: all 0.2s;
@@ -3676,7 +3676,7 @@ img {
   overflow-wrap: break-word;
 }
 #article-container a {
-  color: #f4c7a7;
+  color: #f2dcc5;
 }
 #article-container a:hover {
   text-decoration: underline;
@@ -4030,15 +4030,15 @@ img {
   transition: all 0.2s ease-in-out;
 }
 #sidebar .sidebar-toc .toc-link.active {
-  border-right-color: #009d92;
-  background: #00c4b6;
+  border-right-color: #8a5d39;
+  background: #ac7447;
   color: #fff;
 }
 #sidebar .sidebar-toc__progress {
   position: relative;
   margin-bottom: 0.3rem;
   padding-left: 0.6rem;
-  color: #00c4b6;
+  color: #ac7447;
 }
 #sidebar .sidebar-toc__progress .progress-notice {
   margin-right: 0.4rem;
@@ -4050,7 +4050,7 @@ img {
 #sidebar .sidebar-toc__progress-bar {
   width: 0;
   height: 1px;
-  background: #00c4b6;
+  background: #ac7447;
 }
 #vcomment .vbtn {
   border: none;
@@ -4712,7 +4712,7 @@ blockquote.pullquote.right {
   position: relative;
   display: block;
   margin: 0 0 0 auto;
-  color: #99a9bf;
+  color: #f4c7a7;
 }
 @-moz-keyframes tabshow {
   0% {
@@ -4983,7 +4983,7 @@ blockquote.pullquote.right {
   display: none !important;
 }
 .read-mode #article-container a {
-  color: #99a9bf;
+  color: #f4c7a7;
 }
 .read-mode #article-container pre,
 .read-mode #article-container .highlight:not(.js-file-line-container) {
