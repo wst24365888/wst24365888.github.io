@@ -346,7 +346,7 @@ table {
   empty-cells: show;
 }
 table thead {
-  background: rgba(172,116,71,0.1);
+  background: rgba(244,199,167,0.1);
 }
 table th,
 table td {
@@ -2146,7 +2146,7 @@ blockquote footer cite:before {
 }
 #aside_content .card-recent-post .aside-recent-item > .aside-recent-post .aside-post-info .aside-post_meta {
   padding-left: 10px;
-  color: #f2dcc5;
+  color: #ac7447;
   font-size: 0.6rem;
 }
 #aside_content .card-recent-post .aside-recent-item > .aside-recent-post .aside-post-info .aside-post-title {
@@ -3126,7 +3126,7 @@ _:future,
   color: #ac7447;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
-  color: #f2dcc5;
+  color: #ac7447;
   font-size: 90%;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .post-meta-date {
@@ -3151,7 +3151,7 @@ _:future,
   margin: 0 0.2rem;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a {
-  color: #f2dcc5;
+  color: #ac7447;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a:hover {
   color: #ac7447;
@@ -3318,7 +3318,7 @@ _:future,
   border-color: #f2dcc5;
 }
 .article-sort-item-time {
-  color: #f2dcc5;
+  color: #ac7447;
   font-size: 0.9em;
 }
 .article-sort-item-time time {
@@ -3388,7 +3388,7 @@ _:future,
 }
 .category-list .category-list-count {
   margin-left: 0.4rem;
-  color: #f2dcc5;
+  color: #ac7447;
 }
 .category-list .category-list-count:before {
   content: '(';
@@ -3582,7 +3582,7 @@ _:future,
   padding-left: 0.3rem;
 }
 a {
-  color: #ac7447;
+  color: #f4c7a7;
   text-decoration: none;
   word-wrap: break-word;
   -webkit-transition: all 0.2s;
@@ -4755,7 +4755,7 @@ blockquote.pullquote.right {
   position: relative;
   display: block;
   margin: 0 0 0 auto;
-  color: #ac7447;
+  color: #f4c7a7;
 }
 @-moz-keyframes tabshow {
   0% {
@@ -5026,7 +5026,7 @@ blockquote.pullquote.right {
   display: none !important;
 }
 .read-mode #article-container a {
-  color: #ac7447;
+  color: #f4c7a7;
 }
 .read-mode #article-container pre,
 .read-mode #article-container .highlight:not(.js-file-line-container) {

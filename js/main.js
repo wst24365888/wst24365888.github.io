@@ -82,7 +82,7 @@ const openSidebar = () => {
   }, 400)
   $('#toggle-sidebar').css({
     transform: 'rotateZ(180deg)',
-    color: '#ac7447',
+    color: '#f4c7a7',
     opacity: '1'
   })
 }
