@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wst24365888.github.io/dart-extends-and-implements/</loc>
+    
+    <lastmod>2020-12-12T12:40:16.838Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wst24365888.github.io/dart-mixin/</loc>
+    
+    <lastmod>2020-12-12T12:39:58.206Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wst24365888.github.io/flutter-full-screen/</loc>
+    
+    <lastmod>2020-12-12T12:39:27.073Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wst24365888.github.io/setup-cpp-configuration-in-vscode-for-multiple-environment/</loc>
     
     <lastmod>2020-10-10T16:39:59.529Z</lastmod>
@@ -26,20 +47,6 @@
     <loc>http://wst24365888.github.io/add-google-search-console/</loc>
     
     <lastmod>2020-08-02T03:40:22.338Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wst24365888.github.io/dart-mixin/</loc>
-    
-    <lastmod>2020-08-02T03:39:36.383Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wst24365888.github.io/flutter-full-screen/</loc>
-    
-    <lastmod>2020-08-02T03:32:47.188Z</lastmod>
     
   </url>
   
@@ -131,13 +138,6 @@
     <loc>http://wst24365888.github.io/add-image/</loc>
     
     <lastmod>2019-09-09T13:24:06.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wst24365888.github.io/dart-extends-and-implements/</loc>
-    
-    <lastmod>2019-09-09T13:22:34.000Z</lastmod>
     
   </url>
   
