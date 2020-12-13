@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wst24365888.github.io/install-flutter/</loc>
+    
+    <lastmod>2020-12-13T12:51:39.399Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wst24365888.github.io/dart-mixin/</loc>
     
     <lastmod>2020-12-12T12:44:19.326Z</lastmod>
@@ -61,13 +68,6 @@
     <loc>http://wst24365888.github.io/xyphuz-scanner/</loc>
     
     <lastmod>2020-08-02T03:31:20.484Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wst24365888.github.io/install-flutter/</loc>
-    
-    <lastmod>2020-08-02T03:31:11.120Z</lastmod>
     
   </url>
   
