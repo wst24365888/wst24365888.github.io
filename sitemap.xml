@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wst24365888.github.io/flutter-full-screen/</loc>
+    
+    <lastmod>2020-12-13T15:18:58.829Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wst24365888.github.io/install-flutter/</loc>
     
     <lastmod>2020-12-13T13:00:42.013Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://wst24365888.github.io/dart-extends-and-implements/</loc>
     
     <lastmod>2020-12-12T12:40:16.838Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wst24365888.github.io/flutter-full-screen/</loc>
-    
-    <lastmod>2020-12-12T12:39:27.073Z</lastmod>
     
   </url>
   
