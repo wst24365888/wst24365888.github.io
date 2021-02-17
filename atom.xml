@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2021-02-17T10:47:50.985Z</updated>
+  <updated>2021-02-17T11:11:48.203Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -17,13 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>在Caddy中使用反向代理運行Go服務</title>
+    <link href="http://wst24365888.github.io/run-go-service-with-caddy/"/>
+    <id>http://wst24365888.github.io/run-go-service-with-caddy/</id>
+    <published>2021-02-17T10:54:02.000Z</published>
+    <updated>2021-02-17T11:11:48.203Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天有一監聽 8080 Port 的 Go 服務如下</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">    <span class="string">&quot;fmt&quot;</span></span><br><span class="line">    <span class="string">&quot;net/http&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">handler</span><span class="params">(w http.ResponseWriter, r *http.Request)</span></span> &#123;</span><br><span class="line">    fmt.Fprintf(w, <span class="string">&quot;Hello, %s!&quot;</span>, r.URL.Path[<span class="number">1</span>:])</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    http.HandleFunc(<span class="string">&quot;/&quot;</span>, handler)</span><br><span class="line">    http.ListenAndServe(<span class="string">&quot;:8080&quot;</span>, <span class="literal">nil</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>該怎麼使用Caddy把這個服務架上去呢？</p><h2 id="使用reverse-proxy"><a href="#使用reverse-proxy" class="headerlink" title="使用reverse_proxy"></a>使用reverse_proxy</h2><p>這邊使用反向代理(Reverse Proxy)的作法</p><p>編輯 <code>Caddyfile</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">your.domain.com &#123;</span><br><span class="line">    reverse_proxy 0.0.0.0:8080</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>接著搭配 Caddyfile 一起 run 起 Caddy 的服務就大功告成啦！</p><p>另外，Caddy 內還有很多套件可以與 reverse_proxy 一起使用，這裡就不一一贅述了~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天有一監聽 8080 Port 的 Go 服務如下&lt;/p&gt;
+&lt;figure class=&quot;highlight go&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class
+      
+    
+    </summary>
+    
+    
+      <category term="Caddy" scheme="http://wst24365888.github.io/categories/Caddy/"/>
+    
+    
+      <category term="Caddy" scheme="http://wst24365888.github.io/tags/Caddy/"/>
+    
+      <category term="Go" scheme="http://wst24365888.github.io/tags/Go/"/>
+    
+      <category term="Reverse Proxy" scheme="http://wst24365888.github.io/tags/Reverse-Proxy/"/>
+    
+  </entry>
+  
+  <entry>
     <title>安裝Caddy</title>
     <link href="http://wst24365888.github.io/install-caddy/"/>
     <id>http://wst24365888.github.io/install-caddy/</id>
     <published>2021-02-17T10:00:26.000Z</published>
-    <updated>2021-02-17T10:47:50.985Z</updated>
+    <updated>2021-02-17T10:52:52.477Z</updated>
     
-    <content type="html"><![CDATA[<p>Caddy 是一個近幾年迅速竄紅的 Web Server</p><p>主要是以 Go 語言開發</p><p>相較於主流的 Nginx</p><p>Caddy 原生支援 HTTPS</p><p>會自己幫你去申請 Let’s Encrypt 的憑證</p><p>而且設定檔相對親民化許多！</p><p>-</p><p>對我這種懶人+伺服器新手根本超友善的啦🧡</p><h2 id="下載-Caddy"><a href="#下載-Caddy" class="headerlink" title="下載 Caddy"></a>下載 Caddy</h2><p>由於 Caddy 是用 Go 開發的</p><p>所以到官網下載二進位檔就能執行囉~</p><h3 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h3><p>創建資料夾 <code>C:\Caddy\bin</code> (其實改什麼路徑都沒差，待會記得就好)</p><p>接著到<a href="https://caddyserver.com/download">Caddy官網的下載頁面</a>選擇相對應的平台下載</p><p>下載結束後應該會是一個 <code>.exe</code> 檔</p><p>將其檔名改成 <code>caddy.exe</code> 後</p><p>複製到剛剛創建的資料夾(這裡是 <code>C:\Caddy\bin</code>)</p><h3 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h3><p>先用 <code>mkdir</code> 指令創建資料夾並 <code>cd</code> 到該目錄</p><p>再用 <code>wget</code> 指令下載</p><p>接著再用 <code>chmod</code> 為下載好的二進位檔賦予執行權限</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mkdir /usr/<span class="built_in">local</span>/caddy &amp;&amp; <span class="built_in">cd</span> /usr/<span class="built_in">local</span>/caddy</span><br><span class="line">wget -N --no-check-certificate -O <span class="string">&quot;caddy&quot;</span> <span class="string">&quot;https://caddyserver.com/api/download?os=linux&amp;arch=amd64&quot;</span></span><br><span class="line">chmod +x caddy</span><br></pre></td></tr></table></figure><h2 id="加到環境變數"><a href="#加到環境變數" class="headerlink" title="加到環境變數"></a>加到環境變數</h2><h3 id="Windows-1"><a href="#Windows-1" class="headerlink" title="Windows"></a>Windows</h3><p>到了編輯環境變數的介面後</p><p>找到 <code>PATH</code></p><p>點選 <strong>編輯(E)</strong></p><p><img src="0.PNG"></p><p>接著點 <strong>新增(N)</strong></p><p>並貼上上一步創建的資料夾(這裡是 <code>C:\Caddy\bin</code>)</p><p><img src="2.PNG"></p><p>接著一錄按確定就好！</p><h3 id="Linux-1"><a href="#Linux-1" class="headerlink" title="Linux"></a>Linux</h3><p>建立軟連結</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln -s /usr/<span class="built_in">local</span>/caddy/caddy /usr/bin/caddy</span><br></pre></td></tr></table></figure><h2 id="大功告成！"><a href="#大功告成！" class="headerlink" title="大功告成！"></a>大功告成！</h2><p>可以用</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">caddy start</span><br></pre></td></tr></table></figure><p>來測試看看 Caddy 是否有成功運行囉~</p><p>關閉 Caddy 服務使用</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">caddy stop</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>Caddy 是一個近幾年迅速竄紅的 Web Server</p><p>主要是以 Go 語言開發</p><p>相較於主流的 Nginx</p><p>Caddy 原生支援 HTTPS</p><p>會自己幫你去申請 Let’s Encrypt 的憑證</p><p>而且設定檔相對親民化許多！</p><p>-</p><p>對我這種懶人+伺服器新手根本超友善的啦🧡</p><h2 id="下載-Caddy"><a href="#下載-Caddy" class="headerlink" title="下載 Caddy"></a>下載 Caddy</h2><p>由於 Caddy 是用 Go 開發的</p><p>所以到官網下載二進位檔就能執行囉~</p><h3 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h3><p>創建資料夾 <code>C:\Caddy\bin</code> (其實改什麼路徑都沒差，待會記得就好)</p><p>接著到<a href="https://caddyserver.com/download">Caddy官網的下載頁面</a>選擇相對應的平台下載</p><p>下載結束後應該會是一個 <code>.exe</code> 檔</p><p>將其檔名改成 <code>caddy.exe</code> 後</p><p>複製到剛剛創建的資料夾(這裡是 <code>C:\Caddy\bin</code>)</p><h3 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h3><p>先用 <code>mkdir</code> 指令創建資料夾並 <code>cd</code> 到該目錄</p><p>再用 <code>wget</code> 指令下載</p><p>接著再用 <code>chmod</code> 為下載好的二進位檔賦予執行權限</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mkdir /usr/<span class="built_in">local</span>/caddy &amp;&amp; <span class="built_in">cd</span> /usr/<span class="built_in">local</span>/caddy</span><br><span class="line">wget -N --no-check-certificate -O <span class="string">&quot;caddy&quot;</span> <span class="string">&quot;https://caddyserver.com/api/download?os=linux&amp;arch=amd64&quot;</span></span><br><span class="line">chmod +x caddy</span><br></pre></td></tr></table></figure><h2 id="加到環境變數"><a href="#加到環境變數" class="headerlink" title="加到環境變數"></a>加到環境變數</h2><h3 id="Windows-1"><a href="#Windows-1" class="headerlink" title="Windows"></a>Windows</h3><p>到了編輯環境變數的介面後</p><p>找到 <code>PATH</code></p><p>點選 <strong>編輯(E)</strong></p><p><img src="0.PNG"></p><p>接著點 <strong>新增(N)</strong></p><p>並貼上上一步創建的資料夾(這裡是 <code>C:\Caddy\bin</code>)</p><p><img src="1.PNG"></p><p>接著一錄按確定就好！</p><h3 id="Linux-1"><a href="#Linux-1" class="headerlink" title="Linux"></a>Linux</h3><p>建立軟連結</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln -s /usr/<span class="built_in">local</span>/caddy/caddy /usr/bin/caddy</span><br></pre></td></tr></table></figure><h2 id="大功告成！"><a href="#大功告成！" class="headerlink" title="大功告成！"></a>大功告成！</h2><p>可以試著用</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">caddy start</span><br></pre></td></tr></table></figure><p>來測試看看 Caddy 是否有成功運行囉~</p><p>-</p><p>關閉 Caddy 服務使用</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">caddy stop</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -630,36 +661,6 @@
       <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
     
       <category term="Navigator" scheme="http://wst24365888.github.io/tags/Navigator/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Flutter中配置BottomNavigationBar的顏色</title>
-    <link href="http://wst24365888.github.io/flutter-bottomnavigationbar-color/"/>
-    <id>http://wst24365888.github.io/flutter-bottomnavigationbar-color/</id>
-    <published>2019-07-03T08:26:38.000Z</published>
-    <updated>2019-07-03T08:32:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="使用Theme"><a href="#使用Theme" class="headerlink" title="使用Theme"></a>使用Theme</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Theme(</span><br><span class="line">  data: Theme.of(context).copyWith(</span><br><span class="line">    <span class="comment">// background color</span></span><br><span class="line">    canvasColor: Colors.black</span><br><span class="line">  )),</span><br><span class="line">  child: BottomNavigationBar(),</span><br><span class="line">)</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;使用Theme&quot;&gt;&lt;a href=&quot;#使用Theme&quot; class=&quot;headerlink&quot; title=&quot;使用Theme&quot;&gt;&lt;/a&gt;使用Theme&lt;/h2&gt;&lt;figure class=&quot;highlight dart&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="Flutter" scheme="http://wst24365888.github.io/categories/Flutter/"/>
-    
-    
-      <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
-    
-      <category term="BottomNavigationBar" scheme="http://wst24365888.github.io/tags/BottomNavigationBar/"/>
-    
-      <category term="Color" scheme="http://wst24365888.github.io/tags/Color/"/>
     
   </entry>
   

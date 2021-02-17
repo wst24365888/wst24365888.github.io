@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wst24365888.github.io/run-go-service-with-caddy/</loc>
+    
+    <lastmod>2021-02-17T11:11:48.203Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wst24365888.github.io/install-caddy/</loc>
     
-    <lastmod>2021-02-17T10:47:50.985Z</lastmod>
+    <lastmod>2021-02-17T10:52:52.477Z</lastmod>
     
   </url>
   
