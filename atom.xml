@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wst24365888.github.io/"/>
-  <updated>2021-02-17T11:11:48.203Z</updated>
+  <updated>2021-02-17T11:22:01.948Z</updated>
   <id>http://wst24365888.github.io/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <title>在Caddy中使用反向代理運行Go服務</title>
     <link href="http://wst24365888.github.io/run-go-service-with-caddy/"/>
     <id>http://wst24365888.github.io/run-go-service-with-caddy/</id>
-    <published>2021-02-17T10:54:02.000Z</published>
-    <updated>2021-02-17T11:11:48.203Z</updated>
+    <published>2021-02-17T11:20:02.000Z</published>
+    <updated>2021-02-17T11:22:01.948Z</updated>
     
-    <content type="html"><![CDATA[<p>今天有一監聽 8080 Port 的 Go 服務如下</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">    <span class="string">&quot;fmt&quot;</span></span><br><span class="line">    <span class="string">&quot;net/http&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">handler</span><span class="params">(w http.ResponseWriter, r *http.Request)</span></span> &#123;</span><br><span class="line">    fmt.Fprintf(w, <span class="string">&quot;Hello, %s!&quot;</span>, r.URL.Path[<span class="number">1</span>:])</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    http.HandleFunc(<span class="string">&quot;/&quot;</span>, handler)</span><br><span class="line">    http.ListenAndServe(<span class="string">&quot;:8080&quot;</span>, <span class="literal">nil</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>該怎麼使用Caddy把這個服務架上去呢？</p><h2 id="使用reverse-proxy"><a href="#使用reverse-proxy" class="headerlink" title="使用reverse_proxy"></a>使用reverse_proxy</h2><p>這邊使用反向代理(Reverse Proxy)的作法</p><p>編輯 <code>Caddyfile</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">your.domain.com &#123;</span><br><span class="line">    reverse_proxy 0.0.0.0:8080</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>接著搭配 Caddyfile 一起 run 起 Caddy 的服務就大功告成啦！</p><p>另外，Caddy 內還有很多套件可以與 reverse_proxy 一起使用，這裡就不一一贅述了~</p>]]></content>
+    <content type="html"><![CDATA[<p>今天有一監聽 8080 Port 的 Go 服務如下</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">    <span class="string">&quot;fmt&quot;</span></span><br><span class="line">    <span class="string">&quot;net/http&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">handler</span><span class="params">(w http.ResponseWriter, r *http.Request)</span></span> &#123;</span><br><span class="line">    fmt.Fprintf(w, <span class="string">&quot;Hello, %s!&quot;</span>, r.URL.Path[<span class="number">1</span>:])</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    http.HandleFunc(<span class="string">&quot;/&quot;</span>, handler)</span><br><span class="line">    http.ListenAndServe(<span class="string">&quot;:8080&quot;</span>, <span class="literal">nil</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>該怎麼使用 Caddy 把這個服務架上去呢？</p><h2 id="使用-reverse-proxy"><a href="#使用-reverse-proxy" class="headerlink" title="使用 reverse_proxy"></a>使用 reverse_proxy</h2><p>這邊使用反向代理(Reverse Proxy)的作法</p><p>編輯 <code>Caddyfile</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">your.domain.com &#123;</span><br><span class="line">    reverse_proxy 0.0.0.0:8080</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>接著<a href="https://wst24365888.github.io/run-caddy-with-caddyfile/">搭配 Caddyfile 一起運行 Caddy</a> 就大功告成啦！</p><p>另外，Caddy 內還有很多套件可以與 reverse_proxy 一起使用，這裡就不一一贅述了~</p>]]></content>
     
     <summary type="html">
     
@@ -44,6 +44,36 @@
       <category term="Go" scheme="http://wst24365888.github.io/tags/Go/"/>
     
       <category term="Reverse Proxy" scheme="http://wst24365888.github.io/tags/Reverse-Proxy/"/>
+    
+      <category term="Caddyfile" scheme="http://wst24365888.github.io/tags/Caddyfile/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Caddyfile配置Caddy</title>
+    <link href="http://wst24365888.github.io/run-caddy-with-caddyfile/"/>
+    <id>http://wst24365888.github.io/run-caddy-with-caddyfile/</id>
+    <published>2021-02-17T11:13:47.000Z</published>
+    <updated>2021-02-17T11:30:11.498Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="新增-Caddyfile"><a href="#新增-Caddyfile" class="headerlink" title="新增 Caddyfile"></a>新增 <code>Caddyfile</code></h2><p>在安裝 <code>caddy</code> 的目錄下新增一個檔案 (在哪裡都可以，待會記得路徑就好，這裡是 <code>/usr/local/caddy</code>)</p><p>並命名為 <code>Caddyfile</code> (不用副檔名！)</p><h2 id="修改-CaddyFile-配置"><a href="#修改-CaddyFile-配置" class="headerlink" title="修改 CaddyFile 配置"></a>修改 CaddyFile 配置</h2><p>編輯 <code>Caddyfile</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">localhost &#123;</span><br><span class="line">    respond &quot;Hello, world!&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="搭配-CaddyFile-運行-Caddy"><a href="#搭配-CaddyFile-運行-Caddy" class="headerlink" title="搭配 CaddyFile 運行 Caddy"></a>搭配 CaddyFile 運行 Caddy</h2><p>搭配剛剛存放 <code>Caddyfile</code> 的路徑啟動 Caddy</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">caddy start --config /usr/<span class="built_in">local</span>/caddy/Caddyfile --watch</span><br></pre></td></tr></table></figure><blockquote><p><code>--watch</code> 參數代表當 <code>Caddyfile</code> 一有變動時，配置可以立即生效</p></blockquote><h2 id="大功告成！"><a href="#大功告成！" class="headerlink" title="大功告成！"></a>大功告成！</h2><p>接著打開或是 ping <code>localhost</code></p><p>就可以看到 <strong>Hello, world!</strong> 囉！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;新增-Caddyfile&quot;&gt;&lt;a href=&quot;#新增-Caddyfile&quot; class=&quot;headerlink&quot; title=&quot;新增 Caddyfile&quot;&gt;&lt;/a&gt;新增 &lt;code&gt;Caddyfile&lt;/code&gt;&lt;/h2&gt;&lt;p&gt;在安裝 &lt;code&gt;caddy&lt;/
+      
+    
+    </summary>
+    
+    
+      <category term="Caddy" scheme="http://wst24365888.github.io/categories/Caddy/"/>
+    
+    
+      <category term="Caddy" scheme="http://wst24365888.github.io/tags/Caddy/"/>
+    
+      <category term="Caddyfile" scheme="http://wst24365888.github.io/tags/Caddyfile/"/>
     
   </entry>
   
@@ -633,34 +663,6 @@
       <category term="Column" scheme="http://wst24365888.github.io/tags/Column/"/>
     
       <category term="Expanded" scheme="http://wst24365888.github.io/tags/Expanded/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在Flutter中換頁</title>
-    <link href="http://wst24365888.github.io/flutter-change-page/"/>
-    <id>http://wst24365888.github.io/flutter-change-page/</id>
-    <published>2019-07-03T08:37:56.000Z</published>
-    <updated>2019-07-03T08:57:46.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="使用Navigator-push"><a href="#使用Navigator-push" class="headerlink" title="使用Navigator.push"></a>使用Navigator.push</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Navigator.push(</span><br><span class="line">    context,</span><br><span class="line">    MaterialPageRoute(builder: (context) =&gt; ThePageYouWantToGo()),</span><br><span class="line">);</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;使用Navigator-push&quot;&gt;&lt;a href=&quot;#使用Navigator-push&quot; class=&quot;headerlink&quot; title=&quot;使用Navigator.push&quot;&gt;&lt;/a&gt;使用Navigator.push&lt;/h2&gt;&lt;figure class=&quot;hi
-      
-    
-    </summary>
-    
-    
-      <category term="Flutter" scheme="http://wst24365888.github.io/categories/Flutter/"/>
-    
-    
-      <category term="Flutter" scheme="http://wst24365888.github.io/tags/Flutter/"/>
-    
-      <category term="Navigator" scheme="http://wst24365888.github.io/tags/Navigator/"/>
     
   </entry>
   
